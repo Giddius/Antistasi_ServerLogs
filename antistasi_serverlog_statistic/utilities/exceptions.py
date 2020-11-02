@@ -1,0 +1,4 @@
+
+
+class ServerLogStatisticsError(Exception):
+    pass

@@ -1,0 +1,56 @@
+########################################################## created at --> 2020-10-26_04-43-39 ##########################################################
+appdirs==1.4.4
+argcomplete==1.12.1
+armaclass @ git+https://github.com/overfl0/Armaclass.git@f1bb7ec8fe10ba3b25751dad72bf3d99315c21a9
+attrs==20.2.0
+beautifulsoup4==4.9.3
+bs4==0.0.1
+certifi==2020.6.20
+chardet==3.0.4
+checksumdir==1.2.0
+click==7.1.2
+Deprecated==1.2.10
+docutils==0.16
+flit==3.0.0
+flit-core==3.0.0
+fuzzysearch==0.7.3
+fuzzywuzzy==0.18.0
+gidlogger==0.1
+-e git+https://github.com/Giddius/gidtools_utils.git@17b3f08c2fe0c33aae381e0d14254a789f816c10#egg=gidtools
+-e git+https://github.com/Giddius/Gid_Qt_View_models.git@27096fae1981e4e69b7e55bff3fc02b13d22088f#egg=gidviemodels
+gidviewmodels==0.1
+-e git+https://github.com/Giddius/Gid_Vscode_Settings_Wrapper.git@2b089693ed51ecc88559edeacbd4c2ad9da2e740#egg=gidvscodewrapper
+idna==2.10
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+marshmallow==3.8.0
+natsort==7.0.1
+numpy==1.19.2
+packaging==20.4
+parse==1.18.0
+pipx==0.15.5.1
+PyGithub==1.53
+PyJWT==1.7.1
+PyOpenGL==3.1.5
+pyparsing==2.4.7
+pyperclip==1.8.1
+PyQt3D==5.15.1
+PyQt5==5.15.1
+PyQt5-sip==12.8.1
+PyQtChart==5.15.1
+PyQtDataVisualization==5.15.1
+pyqtgraph==0.11.0
+PyQtWebEngine==5.15.1
+python-dotenv==0.14.0
+python-Levenshtein==0.12.0
+pytoml==0.1.21
+pywin32==228
+QScintilla==2.11.5
+regex==2020.10.23
+requests==2.24.0
+six==1.15.0
+soupsieve==2.0.1
+urllib3==1.25.11
+userpath==1.4.1
+WMI==1.5.1
+wrapt==1.12.1
