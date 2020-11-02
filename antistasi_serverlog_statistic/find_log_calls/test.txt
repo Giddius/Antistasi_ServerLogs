@@ -6,15 +6,15 @@
 A3-Antistasi/A3-Antistasi/init.sqf ----->
 
 [2,"Init finished",_fileName] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 [2,"Init SQF started",_fileName] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 [3, "Singleplayer detected: Deleting units for other players.", _fileName] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 
@@ -25,11 +25,11 @@ A3-Antistasi/A3-Antistasi/init.sqf ----->
 A3-Antistasi/A3-Antistasi/initServer.sqf ----->
 
 [2, "Proceeding to initServer", "initServer.sqf"] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 [2, "Opening Singleplayer Parameter Dialog", "initServer.sqf"] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 
@@ -40,15 +40,15 @@ A3-Antistasi/A3-Antistasi/initServer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/AI/fn_airbomb.sqf ----->
 
 [1, "Invalid bomb type", _filename] call A3A_fnc_log 
-## Line Number: 23
+-# Line Number: 23
 
 -------------------
 [getPos _plane, "NameCity"]], _filename, true] call A3A_fnc_log 
-## Line Number: 30
+-# Line Number: 30
 
 -------------------
 ["Executing on: %1", clientOwner], _filename, true] call A3A_fnc_log 
-## Line Number: 2
+-# Line Number: 2
 
 -------------------
 
@@ -59,7 +59,7 @@ A3-Antistasi/A3-Antistasi/functions/AI/fn_airbomb.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/AI/fn_artillery.sqf ----->
 
 [1, "Arty piece destroyed on spawn, fire mission canceled", _filename] call A3A_fnc_log 
-## Line Number: 28
+-# Line Number: 28
 
 -------------------
 
@@ -75,7 +75,7 @@ A3-Antistasi/A3-Antistasi/functions/AI/fn_occupantInvaderUnitKilledEH.sqf ----->
             "aggroEvent",
             true
         ] call A3A_fnc_log 
-## Line Number: 55
+-# Line Number: 55
 
 -------------------
 
@@ -86,11 +86,11 @@ A3-Antistasi/A3-Antistasi/functions/AI/fn_occupantInvaderUnitKilledEH.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/AI/fn_surrenderAction.sqf ----->
 
 [1, "Function miscalled with non-local unit", _filename] call A3A_fnc_log 
-## Line Number: 5
+-# Line Number: 5
 
 -------------------
 [2, "Unit attempted to surrender while incapacitated", _filename] call A3A_fnc_log 
-## Line Number: 16
+-# Line Number: 16
 
 -------------------
 
@@ -101,111 +101,111 @@ A3-Antistasi/A3-Antistasi/functions/AI/fn_surrenderAction.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Ammunition/fn_fillLootCrate.sqf ----->
 
 [3, "Generating Items", _filename] call A3A_fnc_log 
-## Line Number: 225
+-# Line Number: 225
 
 -------------------
 [3, "Generating Weapons", _filename] call A3A_fnc_log 
-## Line Number: 192
+-# Line Number: 192
 
 -------------------
 [3, "No Ammo Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 247
+-# Line Number: 247
 
 -------------------
 [3, "No Items Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 232
+-# Line Number: 232
 
 -------------------
 [3, "No Vests Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 322
+-# Line Number: 322
 
 -------------------
 [3, "No Helmets Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 307
+-# Line Number: 307
 
 -------------------
 ["Function check for: %1", _choice], _filename] call A3A_fnc_log 
-## Line Number: 112
+-# Line Number: 112
 
 -------------------
 ["Items available: %1", _available], _filename] call A3A_fnc_log 
-## Line Number: 229
+-# Line Number: 229
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 [3, "No Backpacks Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 292
+-# Line Number: 292
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 [3, "No Explosives Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 262
+-# Line Number: 262
 
 -------------------
 [3, "No Attachment Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 277
+-# Line Number: 277
 
 -------------------
 [3, "No Device Bags Left in Loot List", _filename] call A3A_fnc_log 
-## Line Number: 337
+-# Line Number: 337
 
 -------------------
 [4, "Ammo Truck Detected: Doubling Types", _filename] call A3A_fnc_log 
-## Line Number: 23
+-# Line Number: 23
 
 -------------------
 ["Item already unlocked, rolling again."], _filename] call A3A_fnc_log 
-## Line Number: 116
+-# Line Number: 116
 
 -------------------
 ["Selected Weapon Category: %1", _category], _filename] call A3A_fnc_log 
-## Line Number: 148
+-# Line Number: 148
 
 -------------------
 [3, format ["Function check for: %1", _choice], _filename] call A3A_fnc_log 
-## Line Number: 112
+-# Line Number: 112
 
 -------------------
 [4, format ["Items available: %1", _available], _filename] call A3A_fnc_log 
-## Line Number: 229
+-# Line Number: 229
 
 -------------------
 [4, format ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 [4, format ["Spawning %1 of %2", _amount,_loot], _filename] call A3A_fnc_log 
-## Line Number: 237
+-# Line Number: 237
 
 -------------------
 
@@ -216,7 +216,7 @@ A3-Antistasi/A3-Antistasi/functions/Ammunition/fn_fillLootCrate.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_aggressionUpdateLoop.sqf ----->
 
 ["Occupants:%1 Invaders:%2 Warlevel:%3", aggressionOccupants, aggressionInvaders, tierWar], "aggressionUpdateLoop"] call A3A_fnc_log 
-## Line Number: 40
+-# Line Number: 40
 
 -------------------
 
@@ -227,11 +227,11 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_aggressionUpdateLoop.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_garbageCleaner.sqf ----->
 
 [2, "Cleaning garbage...", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 [2, "Garbage clean completed", _filename] call A3A_fnc_log 
-## Line Number: 43
+-# Line Number: 43
 
 -------------------
 
@@ -242,7 +242,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_garbageCleaner.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_getAggroLevelString.sqf ----->
 
 ["Bad level recieved, cannot generate string, was %1", _level], "calculateAggression", true] call A3A_fnc_log 
-## Line Number: 9
+-# Line Number: 9
 
 -------------------
 
@@ -253,21 +253,21 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_getAggroLevelString.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_getVehiclePoolForAttacks.sqf ----->
 
 [1, "Found vehicle array with no defined vehicles!", _fileName] call A3A_fnc_log 
-## Line Number: 343
+-# Line Number: 343
 
 -------------------
 ["%1 didnt passed filter %2", _element, _x],
                 _fileName
             ] call A3A_fnc_log 
-## Line Number: 323
+-# Line Number: 323
 
 -------------------
 ["Now searching for attack vehicle pool for %1 with filter %2", _side, _filter], _fileName] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 [3, format ["Now searching for attack vehicle pool for %1 with filter %2", _side, _filter], _fileName] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 
@@ -278,21 +278,21 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_getVehiclePoolForAttacks.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_getVehiclePoolForQRFs.sqf ----->
 
 [1, "Found vehicle array with no defined vehicles!", _fileName] call A3A_fnc_log 
-## Line Number: 404
+-# Line Number: 404
 
 -------------------
 ["%1 didnt passed filter %2", _element, _x],
                 _fileName
             ] call A3A_fnc_log 
-## Line Number: 384
+-# Line Number: 384
 
 -------------------
 ["Now searching for QRF vehicle pool for %1 with filter %2", _side, _filter], _fileName] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 [3, format ["Now searching for QRF vehicle pool for %1 with filter %2", _side, _filter], _fileName] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 
@@ -303,11 +303,11 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_getVehiclePoolForQRFs.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_initPetros.sqf ----->
 
 [2,"initPetros started",_fileName] call A3A_fnc_log 
-## Line Number: 2
+-# Line Number: 2
 
 -------------------
 [2,"initPetros completed",_fileName] call A3A_fnc_log 
-## Line Number: 111
+-# Line Number: 111
 
 -------------------
 
@@ -338,7 +338,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_logPerformance.sqf ----->
 	,server getVariable "hr"
 ]
 , _filename] call A3A_fnc_log 
-## Line Number: 53
+-# Line Number: 53
 
 -------------------
 
@@ -349,43 +349,43 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_logPerformance.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_markerChange.sqf ----->
 
 ["Side changed for %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 54
+-# Line Number: 54
 
 -------------------
 ["Garrison set for %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 97
+-# Line Number: 97
 
 -------------------
 ["Finished marker change at %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 385
+-# Line Number: 385
 
 -------------------
 [3, format ["Side changed for %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 54
+-# Line Number: 54
 
 -------------------
 [3, format ["Garrison set for %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 97
+-# Line Number: 97
 
 -------------------
 ["Changing side of %1 to %2", _markerX, _winner], _fileName] call A3A_fnc_log 
-## Line Number: 10
+-# Line Number: 10
 
 -------------------
 [3, format ["Finished marker change at %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 385
+-# Line Number: 385
 
 -------------------
 [3, format ["Changing side of %1 to %2", _markerX, _winner], _fileName] call A3A_fnc_log 
-## Line Number: 10
+-# Line Number: 10
 
 -------------------
 ["Notification and points done for marker change at %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 292
+-# Line Number: 292
 
 -------------------
 [3, format ["Notification and points done for marker change at %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 292
+-# Line Number: 292
 
 -------------------
 [
@@ -394,7 +394,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_markerChange.sqf ----->
             "aggroEvent",
             true
         ] call A3A_fnc_log 
-## Line Number: 126
+-# Line Number: 126
 
 -------------------
 [
@@ -403,7 +403,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_markerChange.sqf ----->
             "aggroEvent",
             true
         ] call A3A_fnc_log 
-## Line Number: 126
+-# Line Number: 126
 
 -------------------
 
@@ -414,19 +414,19 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_markerChange.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_mrkWIN.sqf ----->
 
 ["Flag capture by %1 rewarded", str _playerX], _filename, true] call A3A_fnc_log 
-## Line Number: 77
+-# Line Number: 77
 
 -------------------
 ["Markers left to be conquered: %1 ", _revealX], _filename, true] call A3A_fnc_log 
-## Line Number: 60
+-# Line Number: 60
 
 -------------------
 [2, format ["Flag capture by %1 rewarded", str _playerX], _filename, true] call A3A_fnc_log 
-## Line Number: 77
+-# Line Number: 77
 
 -------------------
 [3, format ["Markers left to be conquered: %1 ", _revealX], _filename, true] call A3A_fnc_log 
-## Line Number: 60
+-# Line Number: 60
 
 -------------------
 
@@ -437,11 +437,11 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_mrkWIN.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_onPlayerDisconnect.sqf ----->
 
 ["Player unit %1, original unit %2, boss %3", _unit, _realUnit, theBoss], _filename] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 [3, format ["Player unit %1, original unit %2, boss %3", _unit, _realUnit, theBoss], _filename] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 
@@ -452,7 +452,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_onPlayerDisconnect.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_placementselection.sqf ----->
 
 [2,"New session selected",_fileName] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 
@@ -463,7 +463,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_placementselection.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_prestige.sqf ----->
 
 [1, "Minute parameter is 0, assuming 1", "prestige"] call A3A_fnc_log 
-## Line Number: 22
+-# Line Number: 22
 
 -------------------
 
@@ -474,101 +474,101 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_prestige.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_rebelAttack.sqf ----->
 
 [_attackList, "Target params"] call A3A_fnc_log 
-## Line Number: 284
+-# Line Number: 284
 
 -------------------
 [_availableTargets, "Target values"] call A3A_fnc_log 
-## Line Number: 233
+-# Line Number: 233
 
 -------------------
 [_availableTargets, "Available targets"] call A3A_fnc_log 
-## Line Number: 176
+-# Line Number: 176
 
 -------------------
 ["T: %1, A: %2", _target, _baseArray], _fileName] call A3A_fnc_log 
-## Line Number: 180
+-# Line Number: 180
 
 -------------------
 ["Selected target is %1!", _finalTarget], _fileName] call A3A_fnc_log 
-## Line Number: 392
+-# Line Number: 392
 
 -------------------
 [3, "Logging available targets for attack", _fileName] call A3A_fnc_log 
-## Line Number: 175
+-# Line Number: 175
 
 -------------------
 [3, "Logging final target values for attack", _fileName] call A3A_fnc_log 
-## Line Number: 232
+-# Line Number: 232
 
 -------------------
 [3, "Found four targets to attack, these are:", _fileName] call A3A_fnc_log 
-## Line Number: 283
+-# Line Number: 283
 
 -------------------
 [3, format ["T: %1, A: %2", _target, _baseArray], _fileName] call A3A_fnc_log 
-## Line Number: 180
+-# Line Number: 180
 
 -------------------
 [3, "Main target not set, selecting easy target", _fileName] call A3A_fnc_log 
-## Line Number: 368
+-# Line Number: 368
 
 -------------------
 [3, "Easy target not set, selecting main target", _fileName] call A3A_fnc_log 
-## Line Number: 375
+-# Line Number: 375
 
 -------------------
 [3, format ["Selected target is %1!", _finalTarget], _fileName] call A3A_fnc_log 
-## Line Number: 392
+-# Line Number: 392
 
 -------------------
 ["Starting large attack script for side %1", _side], _fileName, true] call A3A_fnc_log 
-## Line Number: 17
+-# Line Number: 17
 
 -------------------
 ["%1 is surrounded by us, considering easy target", _target], _fileName] call A3A_fnc_log 
-## Line Number: 145
+-# Line Number: 145
 
 -------------------
 [2, "Attack could not find available targets, aborting!", _fileName, true] call A3A_fnc_log 
-## Line Number: 172
+-# Line Number: 172
 
 -------------------
 ["%1 has only minimal garrison, considering easy target", _target], _fileName] call A3A_fnc_log 
-## Line Number: 224
+-# Line Number: 224
 
 -------------------
 ["Main target is %1, easy target is %2", _mainTarget, _easyTarget], _fileName] call A3A_fnc_log 
-## Line Number: 362
+-# Line Number: 362
 
 -------------------
 ["Starting single attack against %1 from %2", _target, _x select 0], _fileName] call A3A_fnc_log 
-## Line Number: 295
+-# Line Number: 295
 
 -------------------
 [2, format ["Starting large attack script for side %1", _side], _fileName, true] call A3A_fnc_log 
-## Line Number: 17
+-# Line Number: 17
 
 -------------------
 [3, format ["%1 is surrounded by us, considering easy target", _target], _fileName] call A3A_fnc_log 
-## Line Number: 145
+-# Line Number: 145
 
 -------------------
 [])) then
     {
         [3, "Main target not set, selecting easy target", _fileName] call A3A_fnc_log 
-## Line Number: 368
+-# Line Number: 368
 
 -------------------
 ["Starting punishment mission from %1 to %2", _attackOrigin, _attackTarget], _fileName] call A3A_fnc_log 
-## Line Number: 448
+-# Line Number: 448
 
 -------------------
 ["Autowin %1 for side %2 to avoid unnecessary calculations", _target, _side], _fileName] call A3A_fnc_log 
-## Line Number: 302
+-# Line Number: 302
 
 -------------------
 [3, format ["%1 has only minimal garrison, considering easy target", _target], _fileName] call A3A_fnc_log 
-## Line Number: 224
+-# Line Number: 224
 
 -------------------
 
@@ -579,15 +579,15 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_rebelAttack.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_rebuildRadioTower.sqf ----->
 
 [1, "Server-only function miscalled", _file] call A3A_fnc_log 
-## Line Number: 4
+-# Line Number: 4
 
 -------------------
 ["Repairing Antenna %1", str _antenna], _file] call A3A_fnc_log 
-## Line Number: 9
+-# Line Number: 9
 
 -------------------
 [1, "Attempted to rebuild invalid radio tower", _file] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 
@@ -598,7 +598,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_rebuildRadioTower.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_repairRuinedBuilding.sqf ----->
 
 [1, "Server-only function miscalled", "fn_repairRuinedBuilding"] call A3A_fnc_log 
-## Line Number: 4
+-# Line Number: 4
 
 -------------------
 
@@ -609,7 +609,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_repairRuinedBuilding.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_scheduler.sqf ----->
 
 ["Scheduled function: %1, Function params: %2",_function,_params],_fileName] call A3A_fnc_log 
-## Line Number: 6
+-# Line Number: 6
 
 -------------------
 
@@ -620,11 +620,11 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_scheduler.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Base/fn_splitVehicleCrewIntoOwnGroups.sqf ----->
 
 ["Crew is %1", str _crew], __FILE__] call A3A_fnc_log 
-## Line Number: 24
+-# Line Number: 24
 
 -------------------
 [3, format ["Crew is %1", str _crew], __FILE__] call A3A_fnc_log 
-## Line Number: 24
+-# Line Number: 24
 
 -------------------
 
@@ -639,7 +639,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_startTestingTimer.sqf ----->
     "Starting testing timer now",
     _fileName
 ] call A3A_fnc_log 
-## Line Number: 28
+-# Line Number: 28
 
 -------------------
 [
@@ -650,7 +650,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_startTestingTimer.sqf ----->
         ],
         _fileName
     ] call A3A_fnc_log 
-## Line Number: 86
+-# Line Number: 86
 
 -------------------
 
@@ -661,7 +661,7 @@ A3-Antistasi/A3-Antistasi/functions/Base/fn_startTestingTimer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Convoy/fn_createAIAction.sqf ----->
 
 [_units, "Reinf units"] call A3A_fnc_log 
-## Line Number: 245
+-# Line Number: 245
 
 -------------------
 
@@ -672,7 +672,7 @@ A3-Antistasi/A3-Antistasi/functions/Convoy/fn_createAIAction.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Convoy/fn_despawnConvoy.sqf ----->
 
 ["Despawning convoy %1", _convoyID], "fn_despawnConvoy"] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 
@@ -683,23 +683,23 @@ A3-Antistasi/A3-Antistasi/functions/Convoy/fn_despawnConvoy.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Convoy/fn_spawnConvoy.sqf ----->
 
 [_units, "Convoy Units"] call A3A_fnc_log 
-## Line Number: 38
+-# Line Number: 38
 
 -------------------
 ["Spawning in convoy %1", _convoyID], "fn_spawnConvoy"] call A3A_fnc_log 
-## Line Number: 37
+-# Line Number: 37
 
 -------------------
 [%2]: Terminated", _convoyType, _convoyID], "fn_spawnConvoy"] call A3A_fnc_log 
-## Line Number: 110
+-# Line Number: 110
 
 -------------------
 [3, "Convoy line has no vehicle, unhandled", "fn_spawnConvoy"] call A3A_fnc_log 
-## Line Number: 74
+-# Line Number: 74
 
 -------------------
 [2, format ["Spawning in convoy %1", _convoyID], "fn_spawnConvoy"] call A3A_fnc_log 
-## Line Number: 37
+-# Line Number: 37
 
 -------------------
 
@@ -710,15 +710,15 @@ A3-Antistasi/A3-Antistasi/functions/Convoy/fn_spawnConvoy.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_AIVEHinit.sqf ----->
 
 ["%1 destroyed by %2", typeof _veh, _killerSide], "fn_AIVEHinit"] call A3A_fnc_log 
-## Line Number: 223
+-# Line Number: 223
 
 -------------------
 [3, format ["%1 destroyed by %2", typeof _veh, _killerSide], "fn_AIVEHinit"] call A3A_fnc_log 
-## Line Number: 223
+-# Line Number: 223
 
 -------------------
 ["%1 switching side from %2 to rebels", typeof _veh, _oldside], "fn_AIVEHinit"] call A3A_fnc_log 
-## Line Number: 198
+-# Line Number: 198
 
 -------------------
 
@@ -734,7 +734,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_CIVinit.sqf ----->
                     "aggroEvent",
                     true
                 ] call A3A_fnc_log 
-## Line Number: 67
+-# Line Number: 67
 
 -------------------
 
@@ -745,11 +745,11 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_CIVinit.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_cleanserVeh.sqf ----->
 
 ["%1 is null on spawn", typeof _veh], _filename] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 ["%1 destroyed on spawn", typeof _veh], _filename] call A3A_fnc_log 
-## Line Number: 12
+-# Line Number: 12
 
 -------------------
 
@@ -760,7 +760,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_cleanserVeh.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_createCIV.sqf ----->
 
 ["Roads not found for marker %1", _markerX], _fileName] call A3A_fnc_log 
-## Line Number: 18
+-# Line Number: 18
 
 -------------------
 
@@ -771,51 +771,51 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_createCIV.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_createQRF.sqf ----->
 
 ["QRF on %1 finished", _target], _filename] call A3A_fnc_log 
-## Line Number: 437
+-# Line Number: 437
 
 -------------------
 [3, "QRF reached maximum unit limit", _filename] call A3A_fnc_log 
-## Line Number: 212
+-# Line Number: 212
 
 -------------------
 [3, "QRF reached maximum unit limit", _filename] call A3A_fnc_log 
-## Line Number: 212
+-# Line Number: 212
 
 -------------------
 [2, format ["QRF on %1 finished", _target], _filename] call A3A_fnc_log 
-## Line Number: 437
+-# Line Number: 437
 
 -------------------
 ["QRF from %1 on position %2 defeated", _source, _target], _filename] call A3A_fnc_log 
-## Line Number: 431
+-# Line Number: 431
 
 -------------------
 ["QRF from %1 on position %2 despawned", _source, _target], _filename] call A3A_fnc_log 
-## Line Number: 434
+-# Line Number: 434
 
 -------------------
 [3, format ["QRF from %1 on position %2 defeated", _source, _target], _filename] call A3A_fnc_log 
-## Line Number: 431
+-# Line Number: 431
 
 -------------------
 [3, format ["QRF from %1 on position %2 despawned", _source, _target], _filename] call A3A_fnc_log 
-## Line Number: 434
+-# Line Number: 434
 
 -------------------
 ["QRF vehicle %1 sent with %2 soldiers", typeof _veh, count crew _veh], _filename] call A3A_fnc_log 
-## Line Number: 209
+-# Line Number: 209
 
 -------------------
 ["QRF vehicle %1 sent with %2 soldiers", typeof _veh, count crew _veh], _filename] call A3A_fnc_log 
-## Line Number: 209
+-# Line Number: 209
 
 -------------------
 [3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _veh, count crew _veh], _filename] call A3A_fnc_log 
-## Line Number: 209
+-# Line Number: 209
 
 -------------------
 [3, format ["QRF vehicle %1 sent with %2 soldiers", typeof _veh, count crew _veh], _filename] call A3A_fnc_log 
-## Line Number: 209
+-# Line Number: 209
 
 -------------------
 
@@ -826,7 +826,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_createQRF.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_cycleSpawn.sqf ----->
 
 [_garrison, "Garrison"] call A3A_fnc_log 
-## Line Number: 16
+-# Line Number: 16
 
 -------------------
 
@@ -837,7 +837,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_cycleSpawn.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_findSpawnPosition.sqf ----->
 
 [_spawns, "Spawnpoints"] call A3A_fnc_log 
-## Line Number: 17
+-# Line Number: 17
 
 -------------------
 
@@ -848,7 +848,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_findSpawnPosition.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_freeSpawnPositions.sqf ----->
 
 [_spawns, "Spawn places"] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 
@@ -864,7 +864,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_invaderPunish.sqf ----->
             "aggroEvent",
             true
         ] call A3A_fnc_log 
-## Line Number: 158
+-# Line Number: 158
 
 -------------------
 
@@ -875,7 +875,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_invaderPunish.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_NATOinit.sqf ----->
 
 ["Bad init parameter: %1", _this], _fileName] call A3A_fnc_log 
-## Line Number: 18
+-# Line Number: 18
 
 -------------------
 
@@ -886,35 +886,35 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_NATOinit.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_patrolCA.sqf ----->
 
 [1, "Server-only function miscalled", _filename] call A3A_fnc_log 
-## Line Number: 4
+-# Line Number: 4
 
 -------------------
 ["PatrolCA on %1 cancelled due to heavy fog",_target], _filename] call A3A_fnc_log 
-## Line Number: 26
+-# Line Number: 26
 
 -------------------
 [2, format ["PatrolCA on %1 cancelled due to heavy fog",_target], _filename] call A3A_fnc_log 
-## Line Number: 26
+-# Line Number: 26
 
 -------------------
 ["PatrolCA on %1 cancelled due to other CA in vicinity",_target], _filename] call A3A_fnc_log 
-## Line Number: 66
+-# Line Number: 66
 
 -------------------
 ["PatrolCA airstrike of type %1 sent to %2", _bombType, _posDest], _filename] call A3A_fnc_log 
-## Line Number: 94
+-# Line Number: 94
 
 -------------------
 ["With %1 aggression, sending %2 vehicles", _aggro, _vehicleCount], _fileName] call A3A_fnc_log 
-## Line Number: 212
+-# Line Number: 212
 
 -------------------
 ["PatrolCA on %1 cancelled because maximum unit count reached", _target], _filename] call A3A_fnc_log 
-## Line Number: 114
+-# Line Number: 114
 
 -------------------
 ["PatrolCA on %1 cancelled because no usable bases in vicinity", _target], _filename] call A3A_fnc_log 
-## Line Number: 167
+-# Line Number: 167
 
 -------------------
 
@@ -925,23 +925,23 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_patrolCA.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_patrolReinf.sqf ----->
 
 [2, "Cancelling because maxUnits exceeded", _filename] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 ["Reinf on %1 successful, adding %2 units", _mrkDestination, count units _groupX], _filename] call A3A_fnc_log 
-## Line Number: 190
+-# Line Number: 190
 
 -------------------
 ["Spawn performed: Vehicle type %1 with %2 troops", _typeVehX, count units _groupX], _filename] call A3A_fnc_log 
-## Line Number: 146
+-# Line Number: 146
 
 -------------------
 ["Reinf on %1 failed, returning with %2 units", _mrkDestination, count units _groupX], _filename] call A3A_fnc_log 
-## Line Number: 186
+-# Line Number: 186
 
 -------------------
 [2, format ["Reinf on %1 successful, adding %2 units", _mrkDestination, count units _groupX], _filename] call A3A_fnc_log 
-## Line Number: 190
+-# Line Number: 190
 
 -------------------
 
@@ -952,15 +952,15 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_patrolReinf.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_updateCAMark.sqf ----->
 
 [1, "Server-only function miscalled", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 ["%1 CA mark for marker %2", _operation, _target], _filename] call A3A_fnc_log 
-## Line Number: 9
+-# Line Number: 9
 
 -------------------
 ["%1 CA mark for position %2", _operation, _target], _filename] call A3A_fnc_log 
-## Line Number: 14
+-# Line Number: 14
 
 -------------------
 
@@ -971,7 +971,7 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_updateCAMark.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_vehKilledOrCaptured.sqf ----->
 
 ["%1 of %2 %3 by %4", _type, _side, _act, _sideEnemy], _filename] call A3A_fnc_log 
-## Line Number: 20
+-# Line Number: 20
 
 -------------------
 
@@ -982,59 +982,59 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_vehKilledOrCaptured.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/CREATE/fn_wavedCA.sqf ----->
 
 [2, "Attack ran out of air supports", _filename] call A3A_fnc_log 
-## Line Number: 492
+-# Line Number: 492
 
 -------------------
 [2, "Attack ran out of land vehicles", _filename] call A3A_fnc_log 
-## Line Number: 224
+-# Line Number: 224
 
 -------------------
 [2, "Attack ran out of air transports", _filename] call A3A_fnc_log 
-## Line Number: 531
+-# Line Number: 531
 
 -------------------
 ["Land vehicle pool: %1", _vehPoolLand], _filename] call A3A_fnc_log 
-## Line Number: 142
+-# Line Number: 142
 
 -------------------
 ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 ["Wave will contain %1 vehicles", _nVeh], _fileName] call A3A_fnc_log 
-## Line Number: 173
+-# Line Number: 173
 
 -------------------
 ["Air support pool: %1", _vehPoolAirSupport], _filename] call A3A_fnc_log 
-## Line Number: 144
+-# Line Number: 144
 
 -------------------
 ["Air transport pool: %1", _vehPoolAirTransport], _filename] call A3A_fnc_log 
-## Line Number: 143
+-# Line Number: 143
 
 -------------------
 [3, format ["Land vehicle pool: %1", _vehPoolLand], _filename] call A3A_fnc_log 
-## Line Number: 142
+-# Line Number: 142
 
 -------------------
 [3, format ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 [3, format ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 [3, format ["Spawning vehicle type %1", _typeVehX], _filename] call A3A_fnc_log 
-## Line Number: 228
+-# Line Number: 228
 
 -------------------
 
@@ -1045,11 +1045,11 @@ A3-Antistasi/A3-Antistasi/functions/CREATE/fn_wavedCA.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_addRequested.sqf ----->
 
 [_garrison, "Garrison"] call A3A_fnc_log 
-## Line Number: 68
+-# Line Number: 68
 
 -------------------
 [_reinforcements, "Reinf"] call A3A_fnc_log 
-## Line Number: 65
+-# Line Number: 65
 
 -------------------
 
@@ -1060,7 +1060,7 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_addRequested.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_createGarrison.sqf ----->
 
 ["%1_garrison", _marker]] call A3A_fnc_log 
-## Line Number: 60
+-# Line Number: 60
 
 -------------------
 
@@ -1071,35 +1071,35 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_createGarrison.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_selectReinfUnits.sqf ----->
 
 [1, "_neededCargoSpace is 0, something went really wrong!", _fileName] call A3A_fnc_log 
-## Line Number: 93
+-# Line Number: 93
 
 -------------------
 ["Reinforcments requested from %1 for: %2", _target, _reinf], _fileName] call A3A_fnc_log 
-## Line Number: 34
+-# Line Number: 34
 
 -------------------
 ["Selected %1 as an air transport vehicle", _currentSelected], _fileName] call A3A_fnc_log 
-## Line Number: 108
+-# Line Number: 108
 
 -------------------
 [4, format ["Reinforcments requested from %1 for: %2", _target, _reinf], _fileName] call A3A_fnc_log 
-## Line Number: 34
+-# Line Number: 34
 
 -------------------
 ["Selected %1 as an ground or air transport vehicle", _currentSelected], _fileName] call A3A_fnc_log 
-## Line Number: 130
+-# Line Number: 130
 
 -------------------
 [4, format ["Selected %1 as an air transport vehicle", _currentSelected], _fileName] call A3A_fnc_log 
-## Line Number: 108
+-# Line Number: 108
 
 -------------------
 [4, format ["Selected %1 as an ground or air transport vehicle", _currentSelected], _fileName] call A3A_fnc_log 
-## Line Number: 130
+-# Line Number: 130
 
 -------------------
 ["Units selected, Vehicle is %1, crew is %2, cargo is %3", _currentSelected, _crew, _cargo], _fileName] call A3A_fnc_log 
-## Line Number: 176
+-# Line Number: 176
 
 -------------------
 
@@ -1110,15 +1110,15 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_selectReinfUnits.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_selectVehicleType.sqf ----->
 
 ["No result for %1, assuming bad parameter!", _preference], _fileName] call A3A_fnc_log 
-## Line Number: 121
+-# Line Number: 121
 
 -------------------
 [1, format ["No result for %1, assuming bad parameter!", _preference], _fileName] call A3A_fnc_log 
-## Line Number: 121
+-# Line Number: 121
 
 -------------------
 ["SelectVehicleType: Preselection done, possible vehicles are %1", str _possibleVehicles], _fileName] call A3A_fnc_log 
-## Line Number: 125
+-# Line Number: 125
 
 -------------------
 
@@ -1129,7 +1129,7 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_selectVehicleType.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_shouldReinforce.sqf ----->
 
 ["Checking if %1 should reinforce %2", _base, _target], _fileName] call A3A_fnc_log 
-## Line Number: 4
+-# Line Number: 4
 
 -------------------
 
@@ -1140,19 +1140,19 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_shouldReinforce.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Garrison/fn_updatePreference.sqf ----->
 
 [_preference, "City_preference"] call A3A_fnc_log 
-## Line Number: 80
+-# Line Number: 80
 
 -------------------
 [_preference, "Other_preference"] call A3A_fnc_log 
-## Line Number: 101
+-# Line Number: 101
 
 -------------------
 [_preference, "Airport_preference"] call A3A_fnc_log 
-## Line Number: 40
+-# Line Number: 40
 
 -------------------
 [_preference, "Outpost_preference"] call A3A_fnc_log 
-## Line Number: 65
+-# Line Number: 65
 
 -------------------
 
@@ -1163,23 +1163,23 @@ A3-Antistasi/A3-Antistasi/functions/Garrison/fn_updatePreference.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initACEUnconsciousHandler.sqf ----->
 
 [2,"initACEUnconsciousHandler started",_fileName] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 [2,"initACEUnconsciousHandler completed",_fileName] call A3A_fnc_log 
-## Line Number: 56
+-# Line Number: 56
 
 -------------------
 ["Nearest unit side = %1", str (side _nearestUnit)], "ace_unconscious handler"] call A3A_fnc_log 
-## Line Number: 47
+-# Line Number: 47
 
 -------------------
 [3, format ["Nearest unit side = %1", str (side _nearestUnit)], "ace_unconscious handler"] call A3A_fnc_log 
-## Line Number: 47
+-# Line Number: 47
 
 -------------------
 ["Unit type %1, side %2, realside %3, captive %4, lifestate %5 waking up", typeof _unit, side _unit, _realSide, str (captive _unit), lifestate _unit], ace_unconscious handler] call A3A_fnc_log 
-## Line Number: 23
+-# Line Number: 23
 
 -------------------
 
@@ -1190,43 +1190,43 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initACEUnconsciousHandler.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initClient.sqf ----->
 
 [2,"Server loaded!",_fileName] call A3A_fnc_log 
-## Line Number: 62
+-# Line Number: 62
 
 -------------------
 [2,"initClient started",_fileName] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 ["JIP client: %1",_isJIP],_fileName] call A3A_fnc_log 
-## Line Number: 63
+-# Line Number: 63
 
 -------------------
 [2,"initClient completed",_fileName] call A3A_fnc_log 
-## Line Number: 536
+-# Line Number: 536
 
 -------------------
 [2,"Waiting for server...",_fileName] call A3A_fnc_log 
-## Line Number: 59
+-# Line Number: 59
 
 -------------------
 [2,"Joining In Progress (JIP)",_filename] call A3A_fnc_log 
-## Line Number: 371
+-# Line Number: 371
 
 -------------------
 [2,"Not Joining in Progress (JIP)",_filename] call A3A_fnc_log 
-## Line Number: 392
+-# Line Number: 392
 
 -------------------
 [2,format ["JIP client: %1",_isJIP],_fileName] call A3A_fnc_log 
-## Line Number: 63
+-# Line Number: 63
 
 -------------------
 ["MP client version: %1",localize "STR_antistasi_credits_generic_version_text"],_fileName] call A3A_fnc_log 
-## Line Number: 42
+-# Line Number: 42
 
 -------------------
 ["Headless client version: %1",localize "STR_antistasi_credits_generic_version_text"],_fileName] call A3A_fnc_log 
-## Line Number: 29
+-# Line Number: 29
 
 -------------------
 
@@ -1237,11 +1237,11 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initClient.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initFuncs.sqf ----->
 
 [2,"initFuncs started",_fileName] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 [2,"initFuncs completed",_fileName] call A3A_fnc_log 
-## Line Number: 9
+-# Line Number: 9
 
 -------------------
 
@@ -1252,11 +1252,11 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initFuncs.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initGarrisons.sqf ----->
 
 [2,"InitGarrisons started",_fileName] call A3A_fnc_log 
-## Line Number: 5
+-# Line Number: 5
 
 -------------------
 [2,"InitGarrisons completed",_fileName] call A3A_fnc_log 
-## Line Number: 229
+-# Line Number: 229
 
 -------------------
 
@@ -1267,11 +1267,11 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initGarrisons.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initGetMissionPath.sqf ----->
 
 [2,"Mission path is valid",_fileName] call A3A_fnc_log 
-## Line Number: 6
+-# Line Number: 6
 
 -------------------
 [2,"Compiling mission path",_fileName] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 
@@ -1282,79 +1282,79 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initGetMissionPath.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initServer.sqf ----->
 
 [] call A3A_fnc_log 
-## Line Number: 265
+-# Line Number: 265
 
 -------------------
 [2,"Accepting players",_fileName] call A3A_fnc_log 
-## Line Number: 195
+-# Line Number: 195
 
 -------------------
 [2,"Server init started",_fileName] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 [2,"Previous data loaded",_fileName] call A3A_fnc_log 
-## Line Number: 157
+-# Line Number: 157
 
 -------------------
 [2,"New session selected",_fileName] call A3A_fnc_log 
-## Line Number: 183
+-# Line Number: 183
 
 -------------------
 [2,"initServer completed",_fileName] call A3A_fnc_log 
-## Line Number: 270
+-# Line Number: 270
 
 -------------------
 [1, "No gameMode setting", _fileName] call A3A_fnc_log 
-## Line Number: 53
+-# Line Number: 53
 
 -------------------
 [2,"Dedicated server detected",_fileName] call A3A_fnc_log 
-## Line Number: 6
+-# Line Number: 6
 
 -------------------
 [1, "No loadLastSave setting", _fileName] call A3A_fnc_log 
-## Line Number: 52
+-# Line Number: 52
 
 -------------------
 [2, "Waiting for HQ placement", _fileName] call A3A_fnc_log 
-## Line Number: 229
+-# Line Number: 229
 
 -------------------
 [2, "HQ Placed, continuing init", _fileName] call A3A_fnc_log 
-## Line Number: 231
+-# Line Number: 231
 
 -------------------
 [2, "Setting Singleplayer Params", _fileName] call A3A_fnc_log 
-## Line Number: 49
+-# Line Number: 49
 
 -------------------
 [2,"Setting serverInitDone as true",_fileName] call A3A_fnc_log 
-## Line Number: 226
+-# Line Number: 226
 
 -------------------
 [2,"Initial arsenal unlocks completed",_fileName] call A3A_fnc_log 
-## Line Number: 200
+-# Line Number: 200
 
 -------------------
 [2, "Loading last campaign, ID " + campaignID, _filename] call A3A_fnc_log 
-## Line Number: 89
+-# Line Number: 89
 
 -------------------
 [2, "Creating new campaign with ID " + campaignID, _fileName] call A3A_fnc_log 
-## Line Number: 116
+-# Line Number: 116
 
 -------------------
 [2,"Membership enabled, adding current players to list",_fileName] call A3A_fnc_log 
-## Line Number: 158
+-# Line Number: 158
 
 -------------------
 [2, "Loading campaign from saved list, ID " + campaignID, _filename] call A3A_fnc_log 
-## Line Number: 108
+-# Line Number: 108
 
 -------------------
 ["SP","MP"] select isMultiplayer, localize "STR_antistasi_credits_generic_version_text"],_fileName] call A3A_fnc_log 
-## Line Number: 126
+-# Line Number: 126
 
 -------------------
 
@@ -1365,11 +1365,11 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initServer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initVar.sqf ----->
 
 [2,"initVar started",_fileName] call A3A_fnc_log 
-## Line Number: 5
+-# Line Number: 5
 
 -------------------
 [2,"initVar completed",_fileName] call A3A_fnc_log 
-## Line Number: 21
+-# Line Number: 21
 
 -------------------
 
@@ -1380,11 +1380,11 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initVar.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initVarClient.sqf ----->
 
 [2,"initVarClient started",_fileName] call A3A_fnc_log 
-## Line Number: 6
+-# Line Number: 6
 
 -------------------
 [2,"initVarClient completed",_fileName] call A3A_fnc_log 
-## Line Number: 22
+-# Line Number: 22
 
 -------------------
 
@@ -1395,63 +1395,63 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initVarClient.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initVarCommon.sqf ----->
 
 [2, "IFA Detected", _fileName] call A3A_fnc_log 
-## Line Number: 109
+-# Line Number: 109
 
 -------------------
 [2,"Generating sides",_fileName] call A3A_fnc_log 
-## Line Number: 22
+-# Line Number: 22
 
 -------------------
 [2,"initVarCommon started",_fileName] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 [2,"Checking mission path",_fileName] call A3A_fnc_log 
-## Line Number: 158
+-# Line Number: 158
 
 -------------------
 [2,"Starting mod detection",_fileName] call A3A_fnc_log 
-## Line Number: 78
+-# Line Number: 78
 
 -------------------
 [2,"initVarCommon completed",_fileName] call A3A_fnc_log 
-## Line Number: 273
+-# Line Number: 273
 
 -------------------
 [2,"Creating building arrays",_fileName] call A3A_fnc_log 
-## Line Number: 125
+-# Line Number: 125
 
 -------------------
 [2,"Creating unit identities",_fileName] call A3A_fnc_log 
-## Line Number: 149
+-# Line Number: 149
 
 -------------------
 [2,"Setting initial variables",_fileName] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 [2,"Declaring item categories",_fileName] call A3A_fnc_log 
-## Line Number: 47
+-# Line Number: 47
 
 -------------------
 [2,"Setting map configuration",_fileName] call A3A_fnc_log 
-## Line Number: 179
+-# Line Number: 179
 
 -------------------
 [2,"Done compiling missionPath",_fileName] call A3A_fnc_log 
-## Line Number: 173
+-# Line Number: 173
 
 -------------------
 [2,"Compiling sounds and animations",_fileName] call A3A_fnc_log 
-## Line Number: 136
+-# Line Number: 136
 
 -------------------
 [1,"Stuck on compiling missionPath, re-launch the mission.",_fileName] call A3A_fnc_log 
-## Line Number: 166
+-# Line Number: 166
 
 -------------------
 [1, "IFA detected, but it is no longer supported, please remove this mod", _fileName] call A3A_fnc_log 
-## Line Number: 110
+-# Line Number: 110
 
 -------------------
 
@@ -1462,111 +1462,111 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initVarCommon.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initVarServer.sqf ----->
 
 [2,"Reading templates",_fileName] call A3A_fnc_log 
-## Line Number: 229
+-# Line Number: 229
 
 -------------------
 [2,"Creating civilians",_fileName] call A3A_fnc_log 
-## Line Number: 219
+-# Line Number: 219
 
 -------------------
 [2,"Creating pricelist",_fileName] call A3A_fnc_log 
-## Line Number: 677
+-# Line Number: 677
 
 -------------------
 [2,"Setting mod configs",_fileName] call A3A_fnc_log 
-## Line Number: 191
+-# Line Number: 191
 
 -------------------
 [2,"Building loot lists",_fileName] call A3A_fnc_log 
-## Line Number: 596
+-# Line Number: 596
 
 -------------------
 [2,"initVarServer started",_fileName] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 [2,"Identifying unit types",_fileName] call A3A_fnc_log 
-## Line Number: 569
+-# Line Number: 569
 
 -------------------
 [2,"initVarServer completed",_fileName] call A3A_fnc_log 
-## Line Number: 753
+-# Line Number: 753
 
 -------------------
 [2,"Sending server variables",_fileName] call A3A_fnc_log 
-## Line Number: 745
+-# Line Number: 745
 
 -------------------
 [2,"Sanity-checking templates",_fileName] call A3A_fnc_log 
-## Line Number: 441
+-# Line Number: 441
 
 -------------------
 [2,"Identifying vehicle types",_fileName] call A3A_fnc_log 
-## Line Number: 602
+-# Line Number: 602
 
 -------------------
 [2,"Initialising item categories",__FILE__] call A3A_fnc_log 
-## Line Number: 140
+-# Line Number: 140
 
 -------------------
 [2,"Categorizing vehicle classes",_fileName] call A3A_fnc_log 
-## Line Number: 590
+-# Line Number: 590
 
 -------------------
 [2,"Setting server only variables",_fileName] call A3A_fnc_log 
-## Line Number: 109
+-# Line Number: 109
 
 -------------------
 [2,"Initializing TFAR settings","initVar.sqf"] call A3A_fnc_log 
-## Line Number: 200
+-# Line Number: 200
 
 -------------------
 [1, "Bad template var " + _varName, _filename] call A3A_fnc_log 
-## Line Number: 467
+-# Line Number: 467
 
 -------------------
 [2,"Categorizing equipment classes",_fileName] call A3A_fnc_log 
-## Line Number: 592
+-# Line Number: 592
 
 -------------------
 [2,"Initialising Garrison Variables",_fileName] call A3A_fnc_log 
-## Line Number: 720
+-# Line Number: 720
 
 -------------------
 [2,"Creating civilian vehicles lists",_fileName] call A3A_fnc_log 
-## Line Number: 490
+-# Line Number: 490
 
 -------------------
 [2,"Sorting grouped class categories",_fileName] call A3A_fnc_log 
-## Line Number: 594
+-# Line Number: 594
 
 -------------------
 [2,"Initializing hardcoded categories",_fileName] call A3A_fnc_log 
-## Line Number: 586
+-# Line Number: 586
 
 -------------------
 [2,"Scanning config entries for items",_fileName] call A3A_fnc_log 
-## Line Number: 588
+-# Line Number: 588
 
 -------------------
 [1, "Missing template var " + _varName, _filename] call A3A_fnc_log 
-## Line Number: 454
+-# Line Number: 454
 
 -------------------
 ["Missing classnames: %1", _missingVars], _filename] call A3A_fnc_log 
-## Line Number: 481
+-# Line Number: 481
 
 -------------------
 [2,"Initialising Reinforcement Variables",_fileName] call A3A_fnc_log 
-## Line Number: 736
+-# Line Number: 736
 
 -------------------
 [2,"initialising general server variables",_fileName] call A3A_fnc_log 
-## Line Number: 34
+-# Line Number: 34
 
 -------------------
 ["Miscased classnames: %1", _badCaseVars], _filename] call A3A_fnc_log 
-## Line Number: 484
+-# Line Number: 484
 
 -------------------
 
@@ -1577,19 +1577,19 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initVarServer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_initZones.sqf ----->
 
 [2,"initZones started",_fileName] call A3A_fnc_log 
-## Line Number: 11
+-# Line Number: 11
 
 -------------------
 [2,"initZones completed",_fileName] call A3A_fnc_log 
-## Line Number: 446
+-# Line Number: 446
 
 -------------------
 ["Bad population count data for %1", _nameX], _fileName] call A3A_fnc_log 
-## Line Number: 160
+-# Line Number: 160
 
 -------------------
 ["No roads found for marker %1, generating...", _nameX], _fileName] call A3A_fnc_log 
-## Line Number: 142
+-# Line Number: 142
 
 -------------------
 
@@ -1600,7 +1600,7 @@ A3-Antistasi/A3-Antistasi/functions/init/fn_initZones.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/init/fn_prepareMarkerArrays.sqf ----->
 
 [_placementMarker, "Placements"] call A3A_fnc_log 
-## Line Number: 110
+-# Line Number: 110
 
 -------------------
 
@@ -1614,25 +1614,25 @@ A3-Antistasi/A3-Antistasi/functions/Intel/fn_placeIntel.sqf ----->
     _fileName,
     true
 ] call A3A_fnc_log 
-## Line Number: 19
+-# Line Number: 19
 
 -------------------
 ["Large intel on %1 is selected as trap, spawning explosives", _marker], _fileName, true] call A3A_fnc_log 
-## Line Number: 102
+-# Line Number: 102
 
 -------------------
 ["No suitable buildings found on marker %1", _marker],
         _fileName,
         true
     ] call A3A_fnc_log 
-## Line Number: 29
+-# Line Number: 29
 
 -------------------
 ["Marker %1 is not suited to have intel!", _marker, true],
         _fileName,
         true
     ] call A3A_fnc_log 
-## Line Number: 29
+-# Line Number: 29
 
 -------------------
 
@@ -1643,11 +1643,11 @@ A3-Antistasi/A3-Antistasi/functions/Intel/fn_placeIntel.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Intel/fn_selectIntel.sqf ----->
 
 [1, "No side given!", _fileName] call A3A_fnc_log 
-## Line Number: 37
+-# Line Number: 37
 
 -------------------
 [1, "No intel type given!", _fileName] call A3A_fnc_log 
-## Line Number: 33
+-# Line Number: 33
 
 -------------------
 
@@ -1663,7 +1663,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_AS_Traitor.sqf ----->
         "aggroEvent",
         true
     ] call A3A_fnc_log 
-## Line Number: 162
+-# Line Number: 162
 
 -------------------
 
@@ -1674,7 +1674,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_AS_Traitor.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Missions/fn_convoy.sqf ----->
 
 [3, _eventText, "aggroEvent"] call A3A_fnc_log 
-## Line Number: 310
+-# Line Number: 310
 
 -------------------
 
@@ -1685,79 +1685,79 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_convoy.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Missions/fn_DES_Heli.sqf ----->
 
 ["%1 was captured", _heli], _filename] call A3A_fnc_log 
-## Line Number: 319
+-# Line Number: 319
 
 -------------------
 ["%1 was destroyed", _heli], _filename] call A3A_fnc_log 
-## Line Number: 321
+-# Line Number: 321
 
 -------------------
 ["Pilots and Guard are RTB"], _filename] call A3A_fnc_log 
-## Line Number: 255
+-# Line Number: 255
 
 -------------------
 ["Downed Heli mission completed"], _filename] call A3A_fnc_log 
-## Line Number: 336
+-# Line Number: 336
 
 -------------------
 ["Downed Heli clean up complete"], _filename] call A3A_fnc_log 
-## Line Number: 355
+-# Line Number: 355
 
 -------------------
 ["Creating Helicopter Down mission"], _filename] call A3A_fnc_log 
-## Line Number: 83
+-# Line Number: 83
 
 -------------------
 [3, format ["%1 was captured", _heli], _filename] call A3A_fnc_log 
-## Line Number: 319
+-# Line Number: 319
 
 -------------------
 [3, format ["%1 was destroyed", _heli], _filename] call A3A_fnc_log 
-## Line Number: 321
+-# Line Number: 321
 
 -------------------
 [3, format ["Pilots and Guard are RTB"], _filename] call A3A_fnc_log 
-## Line Number: 255
+-# Line Number: 255
 
 -------------------
 [2, format ["Downed Heli mission completed"], _filename] call A3A_fnc_log 
-## Line Number: 336
+-# Line Number: 336
 
 -------------------
 [3, format ["Downed Heli clean up complete"], _filename] call A3A_fnc_log 
-## Line Number: 355
+-# Line Number: 355
 
 -------------------
 [2, format ["Creating Helicopter Down mission"], _filename] call A3A_fnc_log 
-## Line Number: 83
+-# Line Number: 83
 
 -------------------
 ["Location: %1, Guard Squad spawned", _posCrash], _filename] call A3A_fnc_log 
-## Line Number: 179
+-# Line Number: 179
 
 -------------------
 ["Crash Location: %1, Aircraft: %2", _posCrash, _typeVehH], _filename] call A3A_fnc_log 
-## Line Number: 42
+-# Line Number: 42
 
 -------------------
 [3, format ["Location: %1, Guard Squad spawned", _posCrash], _filename] call A3A_fnc_log 
-## Line Number: 179
+-# Line Number: 179
 
 -------------------
 ["Crash Location: %1, Lite Vehicle: %2", _posCrash, _typeVeh], _filename] call A3A_fnc_log 
-## Line Number: 118
+-# Line Number: 118
 
 -------------------
 ["Repair %1 has reached %2, starting repair...", _vehR, _heli], _filename] call A3A_fnc_log 
-## Line Number: 220
+-# Line Number: 220
 
 -------------------
 [3, format ["Crash Location: %1, Aircraft: %2", _posCrash, _typeVehH], _filename] call A3A_fnc_log 
-## Line Number: 42
+-# Line Number: 42
 
 -------------------
 ["%1 was successfully recovered by %2, mission failed", _heli, _sideX], _filename] call A3A_fnc_log 
-## Line Number: 330
+-# Line Number: 330
 
 -------------------
 
@@ -1773,7 +1773,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_LOG_Bank.sqf ----->
         "aggroEvent",
         true
     ] call A3A_fnc_log 
-## Line Number: 134
+-# Line Number: 134
 
 -------------------
 
@@ -1784,43 +1784,43 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_LOG_Bank.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Missions/fn_LOG_Salvage.sqf ----->
 
 ["Box spawned"], _filename] call A3A_fnc_log 
-## Line Number: 75
+-# Line Number: 75
 
 -------------------
 ["Mission Failed"], _filename] call A3A_fnc_log 
-## Line Number: 124
+-# Line Number: 124
 
 -------------------
 ["Mission Succeeded"], _filename] call A3A_fnc_log 
-## Line Number: 131
+-# Line Number: 131
 
 -------------------
 ["set delete task timer"], _filename] call A3A_fnc_log 
-## Line Number: 135
+-# Line Number: 135
 
 -------------------
 [3, format ["Box spawned"], _filename] call A3A_fnc_log 
-## Line Number: 75
+-# Line Number: 75
 
 -------------------
 ["Creating Salvage mission"], _filename] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 [2, format ["Mission Failed"], _filename] call A3A_fnc_log 
-## Line Number: 124
+-# Line Number: 124
 
 -------------------
 [2, format ["Mission Succeeded"], _filename] call A3A_fnc_log 
-## Line Number: 131
+-# Line Number: 131
 
 -------------------
 ["Spawning patrol boat and crew"], _filename] call A3A_fnc_log 
-## Line Number: 78
+-# Line Number: 78
 
 -------------------
 ["Waiting for salvage mission end"], _filename] call A3A_fnc_log 
-## Line Number: 110
+-# Line Number: 110
 
 -------------------
 
@@ -1836,7 +1836,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_LOG_Supplies.sqf ----->
                 "aggroEvent",
                 true
             ] call A3A_fnc_log 
-## Line Number: 109
+-# Line Number: 109
 
 -------------------
 
@@ -1847,7 +1847,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_LOG_Supplies.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Missions/fn_missionRequest.sqf ----->
 
 ["%1 is not an accepted task type", _type], _filename] call A3A_fnc_log 
-## Line Number: 186
+-# Line Number: 186
 
 -------------------
 
@@ -1858,7 +1858,7 @@ A3-Antistasi/A3-Antistasi/functions/Missions/fn_missionRequest.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/ModsAndDLC/fn_initDisabledMods.sqf ----->
 
 ["Disabled DLC: %1",_disabledMods],_fileName] call A3A_fnc_log 
-## Line Number: 54
+-# Line Number: 54
 
 -------------------
 
@@ -1869,31 +1869,31 @@ A3-Antistasi/A3-Antistasi/functions/ModsAndDLC/fn_initDisabledMods.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_assignBossIfNone.sqf ----->
 
 ["Player %1 is eligible", _x],_filename] call A3A_fnc_log 
-## Line Number: 16
+-# Line Number: 16
 
 -------------------
 ["Player %1 is not eligible", _x],_filename] call A3A_fnc_log 
-## Line Number: 27
+-# Line Number: 27
 
 -------------------
 [3, format ["Player %1 is eligible", _x],_filename] call A3A_fnc_log 
-## Line Number: 16
+-# Line Number: 16
 
 -------------------
 ["Player chosen for Boss: %1", _nextBoss],_filename] call A3A_fnc_log 
-## Line Number: 33
+-# Line Number: 33
 
 -------------------
 [3, format ["Player %1 is not eligible", _x],_filename] call A3A_fnc_log 
-## Line Number: 27
+-# Line Number: 27
 
 -------------------
 [2, format ["Player chosen for Boss: %1", _nextBoss],_filename] call A3A_fnc_log 
-## Line Number: 33
+-# Line Number: 33
 
 -------------------
 [2, "Couldn't select a new boss - no eligible candidates.",_filename] call A3A_fnc_log 
-## Line Number: 38
+-# Line Number: 38
 
 -------------------
 
@@ -1904,15 +1904,15 @@ A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_assignBossIfNone.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_makePlayerBossIfEligible.sqf ----->
 
 ["Attempting to make %1 the boss", _player], _filename] call A3A_fnc_log 
-## Line Number: 5
+-# Line Number: 5
 
 -------------------
 [3, "Player is eligible, making them the boss", _filename] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 [3, format ["Attempting to make %1 the boss", _player], _filename] call A3A_fnc_log 
-## Line Number: 5
+-# Line Number: 5
 
 -------------------
 
@@ -1923,11 +1923,11 @@ A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_makePlayerBossIfEligible.sqf -
 A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_promotePlayer.sqf ----->
 
 [3, _textX, _filename] call A3A_fnc_log 
-## Line Number: 33
+-# Line Number: 33
 
 -------------------
 ["Working on player ranks"],_filename] call A3A_fnc_log 
-## Line Number: 2
+-# Line Number: 2
 
 -------------------
 
@@ -1938,19 +1938,19 @@ A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_promotePlayer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_theBossTransfer.sqf ----->
 
 ["New boss %1 set.", theBoss], _filename] call A3A_fnc_log 
-## Line Number: 52
+-# Line Number: 52
 
 -------------------
 [3, format ["New boss %1 set.", theBoss], _filename] call A3A_fnc_log 
-## Line Number: 52
+-# Line Number: 52
 
 -------------------
 ["Removing %1 from Boss roles.", theBoss], _filename] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 [3, "Found previous HC groups, transferring.", _filename] call A3A_fnc_log 
-## Line Number: 36
+-# Line Number: 36
 
 -------------------
 
@@ -1961,15 +1961,15 @@ A3-Antistasi/A3-Antistasi/functions/OrgPlayers/fn_theBossTransfer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Pathfinding/fn_loadNavGrid.sqf ----->
 
 [2, "Started loading nav grid", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 [2, "Finished loading nav grid", _filename] call A3A_fnc_log 
-## Line Number: 34
+-# Line Number: 34
 
 -------------------
 ["Road database at %1 could not be loaded", _path], _filename] call A3A_fnc_log 
-## Line Number: 17
+-# Line Number: 17
 
 -------------------
 
@@ -1980,7 +1980,7 @@ A3-Antistasi/A3-Antistasi/functions/Pathfinding/fn_loadNavGrid.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment.sqf ----->
 
 [1, "NOT SERVER", _filename] call A3A_fnc_log 
-## Line Number: 40
+-# Line Number: 40
 
 -------------------
 
@@ -1991,7 +1991,7 @@ A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_checkStatus.sqf ----->
 
 [1, "NOT SERVER", _filename] call A3A_fnc_log 
-## Line Number: 39
+-# Line Number: 39
 
 -------------------
 
@@ -2002,15 +2002,15 @@ A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_checkStatus.sqf ---
 A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_oceanGulag.sqf ----->
 
 [1, "NOT SERVER", _filename] call A3A_fnc_log 
-## Line Number: 32
+-# Line Number: 32
 
 -------------------
 ["INVALID PARAMS | _operation=""%1""", _operation], _filename] call A3A_fnc_log 
-## Line Number: 95
+-# Line Number: 95
 
 -------------------
 [1, format ["INVALID PARAMS | _operation=""%1""", _operation], _filename] call A3A_fnc_log 
-## Line Number: 95
+-# Line Number: 95
 
 -------------------
 
@@ -2021,19 +2021,19 @@ A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_oceanGulag.sqf ----
 A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_release.sqf ----->
 
 [1, "NOT SERVER", _filename] call A3A_fnc_log 
-## Line Number: 32
+-# Line Number: 32
 
 -------------------
 ["RELEASE | %1", _playerStats], _filename] call A3A_fnc_log 
-## Line Number: 57
+-# Line Number: 57
 
 -------------------
 ["FORGIVE | %1", _playerStats], _filename] call A3A_fnc_log 
-## Line Number: 66
+-# Line Number: 66
 
 -------------------
 [2, format ["RELEASE | %1", _playerStats], _filename] call A3A_fnc_log 
-## Line Number: 57
+-# Line Number: 57
 
 -------------------
 
@@ -2044,11 +2044,11 @@ A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_release.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_sentence_server.sqf ----->
 
 [1, "NOT SERVER", _filename] call A3A_fnc_log 
-## Line Number: 34
+-# Line Number: 34
 
 -------------------
 ["DISCONNECTED/DIED WHILE PUNISHED | %1", _playerStats], _filename] call A3A_fnc_log 
-## Line Number: 51
+-# Line Number: 51
 
 -------------------
 
@@ -2059,31 +2059,31 @@ A3-Antistasi/A3-Antistasi/functions/Punishment/fn_punishment_sentence_server.sqf
 A3-Antistasi/A3-Antistasi/functions/pvp/fn_pvpCheck.sqf ----->
 
 [2,"Player kicked as they are not Jipping",_filename] call A3A_fnc_log 
-## Line Number: 12
+-# Line Number: 12
 
 -------------------
 [2,"Player kicked as PvP slots are disabled",_filename] call A3A_fnc_log 
-## Line Number: 17
+-# Line Number: 17
 
 -------------------
 [2,"PvP player kicked because they are not a member.",_filename] call A3A_fnc_log 
-## Line Number: 22
+-# Line Number: 22
 
 -------------------
 [2,"PvP player kicked as there is no Rebel Commander.",_filename] call A3A_fnc_log 
-## Line Number: 37
+-# Line Number: 37
 
 -------------------
 [2,"PvP player kicked as there are not enough normal players.",_filename] call A3A_fnc_log 
-## Line Number: 32
+-# Line Number: 32
 
 -------------------
 [2,"PvP player kicked because there are wayyyyyy too many PvP players..",_filename] call A3A_fnc_log 
-## Line Number: 27
+-# Line Number: 27
 
 -------------------
 [2,"PvP player logged in, doing server side checks if the player has been rebel recently.",_filename] call A3A_fnc_log 
-## Line Number: 41
+-# Line Number: 41
 
 -------------------
 
@@ -2094,11 +2094,11 @@ A3-Antistasi/A3-Antistasi/functions/pvp/fn_pvpCheck.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/REINF/fn_equipRebel.sqf ----->
 
 ["Unknown unit class: %1", _unitClass], _filename] call A3A_fnc_log 
-## Line Number: 121
+-# Line Number: 121
 
 -------------------
 [1, format["Unknown unit class: %1", _unitClass], _filename] call A3A_fnc_log 
-## Line Number: 121
+-# Line Number: 121
 
 -------------------
 
@@ -2109,27 +2109,27 @@ A3-Antistasi/A3-Antistasi/functions/REINF/fn_equipRebel.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/REINF/fn_postmortem.sqf ----->
 
 [3,cleanSTR, _filename] call A3A_fnc_log 
-## Line Number: 28
+-# Line Number: 28
 
 -------------------
 [3,"PostMortem Called",_filename] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 ["Cleanup complete for %1 group.", _group],_filename] call A3A_fnc_log 
-## Line Number: 39
+-# Line Number: 39
 
 -------------------
 [1,"Function failed called with null param.",_filename] call A3A_fnc_log 
-## Line Number: 14
+-# Line Number: 14
 
 -------------------
 ["Cleanup complete for %1 victim.", _victim],_filename] call A3A_fnc_log 
-## Line Number: 33
+-# Line Number: 33
 
 -------------------
 [3,format["Cleanup complete for %1 group.", _group],_filename] call A3A_fnc_log 
-## Line Number: 39
+-# Line Number: 39
 
 -------------------
 
@@ -2140,7 +2140,7 @@ A3-Antistasi/A3-Antistasi/functions/REINF/fn_postmortem.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/SalvageRope/fn_salvageRope.sqf ----->
 
 ["Salvage Rope Action added on JIP client: %1", player], _filename, true] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 
@@ -2151,19 +2151,19 @@ A3-Antistasi/A3-Antistasi/functions/SalvageRope/fn_salvageRope.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Save/fn_loadPlayer.sqf ----->
 
 [1, "Miscalled server-only function", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 ["No save found for player ID %1", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 10
+-# Line Number: 10
 
 -------------------
 [2, format ["No save found for player ID %1", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 10
+-# Line Number: 10
 
 -------------------
 ["Loading player data for ID %1 into unit %2", _playerId, _unit], _filename] call A3A_fnc_log 
-## Line Number: 14
+-# Line Number: 14
 
 -------------------
 
@@ -2174,11 +2174,11 @@ A3-Antistasi/A3-Antistasi/functions/Save/fn_loadPlayer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Save/fn_resetPlayer.sqf ----->
 
 [1, "Miscalled server-only function", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 ["Resetting player data for ID %1, unit %2", _playerId, _unit], _filename] call A3A_fnc_log 
-## Line Number: 9
+-# Line Number: 9
 
 -------------------
 
@@ -2189,15 +2189,15 @@ A3-Antistasi/A3-Antistasi/functions/Save/fn_resetPlayer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Save/fn_saveLoop.sqf ----->
 
 [2, "Starting persistent save", _filename] call A3A_fnc_log 
-## Line Number: 8
+-# Line Number: 8
 
 -------------------
 [2, "Persistent Save Completed", _filename] call A3A_fnc_log 
-## Line Number: 240
+-# Line Number: 240
 
 -------------------
 [1, "Miscalled server-only function", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 
@@ -2208,39 +2208,39 @@ A3-Antistasi/A3-Antistasi/functions/Save/fn_saveLoop.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Save/fn_savePlayer.sqf ----->
 
 [1, "Miscalled server-only function", _filename] call A3A_fnc_log 
-## Line Number: 3
+-# Line Number: 3
 
 -------------------
 ["Not saving player %1 due to missing unit", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 ["Not saving player %1 due to canSave being false.", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 29
+-# Line Number: 29
 
 -------------------
 ["Not saving player of unit %1 due to missing UID", _playerUnit], _filename] call A3A_fnc_log 
-## Line Number: 11
+-# Line Number: 11
 
 -------------------
 [1, format ["Not saving player %1 due to missing unit", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 15
+-# Line Number: 15
 
 -------------------
 ["Saving player %1 on side %2", _playerId, side group _playerUnit], _filename] call A3A_fnc_log 
-## Line Number: 32
+-# Line Number: 32
 
 -------------------
 ["Not saving player %1 due to them being on the wrong team.", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 24
+-# Line Number: 24
 
 -------------------
 [2, format ["Not saving player %1 due to canSave being false.", _playerId], _filename] call A3A_fnc_log 
-## Line Number: 29
+-# Line Number: 29
 
 -------------------
 [1, format ["Not saving player of unit %1 due to missing UID", _playerUnit], _filename] call A3A_fnc_log 
-## Line Number: 11
+-# Line Number: 11
 
 -------------------
 
@@ -2251,7 +2251,7 @@ A3-Antistasi/A3-Antistasi/functions/Save/fn_savePlayer.sqf ----->
 A3-Antistasi/A3-Antistasi/functions/Utility/fn_log.sqf ----->
 
 [1, "Message", _filename] call A3A_fnc_log 
-## Line Number: 13
+-# Line Number: 13
 
 -------------------
 
@@ -2262,19 +2262,19 @@ A3-Antistasi/A3-Antistasi/functions/Utility/fn_log.sqf ----->
 A3-Antistasi/A3-Antistasi/JeroenArsenal/JNA/fn_arsenal_init.sqf ----->
 
 [2,"JNA init started",_fileName] call A3A_fnc_log 
-## Line Number: 7
+-# Line Number: 7
 
 -------------------
 [2,"JNA init completed",_fileName] call A3A_fnc_log 
-## Line Number: 119
+-# Line Number: 119
 
 -------------------
 [2,"JNA server detected",_fileName] call A3A_fnc_log 
-## Line Number: 56
+-# Line Number: 56
 
 -------------------
 [2,"JNA loading player data",_fileName] call A3A_fnc_log 
-## Line Number: 64
+-# Line Number: 64
 
 -------------------
 
@@ -2285,10 +2285,10 @@ A3-Antistasi/A3-Antistasi/JeroenArsenal/JNA/fn_arsenal_init.sqf ----->
 A3-Antistasi/A3-Antistasi/Scripts/fn_advancedTowingInit.sqf ----->
 
 [2,"Loaded advanced towing",_fileName] call A3A_fnc_log 
-## Line Number: 876
+-# Line Number: 876
 
 -------------------
 [2,"Loading advanced towing",_fileName] call A3A_fnc_log 
-## Line Number: 60
+-# Line Number: 60
 
 -------------------
