@@ -14,7 +14,7 @@ class RegexMachine:
     def __init__(self):
 
         self.raw_regexes = {
-            "raw_line_date_regex": r"(?P<date>\d\d\d\d.\d\d.\d\d)",
+            "raw_line_date_regex": r"(?P<date>\d\d\d\d.\d\d.\d\d).*?",
             "raw_line_time_regex": r"(?P<time>[012\s]?\d.[0123456]\d.[0123456]\d)",
             "raw_line_level_regex": r"(?P<level>(?<=\|\s)[A-Z0-9][A-Z0-9]+(?=\\|))",
             "raw_line_function_regex": r"(?P<function>(?<=\s\|\s)\w+(\.\w+)?(?=\s\|\s))",
