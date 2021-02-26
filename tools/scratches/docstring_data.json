@@ -1,0 +1,4340 @@
+{
+    "__init__": {
+        "classes": {},
+        "functions": {
+            "_get_class_from_module": {
+                "missing_docstring": true
+            },
+            "collect_sub_support_classes": {
+                "missing_docstring": true
+            },
+            "get_aliases": {
+                "missing_docstring": true
+            },
+            "get_brief": {
+                "missing_docstring": true
+            },
+            "get_cog_paths_from_folder": {
+                "missing_docstring": false
+            },
+            "get_description": {
+                "missing_docstring": true
+            },
+            "get_doc_data": {
+                "missing_docstring": true
+            },
+            "get_help": {
+                "missing_docstring": true
+            },
+            "get_usage": {
+                "missing_docstring": true
+            },
+            "load_all_modules_from_dir": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "__main__": {
+        "classes": {},
+        "functions": {
+            "configure_logger": {
+                "missing_docstring": false
+            },
+            "main": {
+                "missing_docstring": false
+            },
+            "non_click_command_info_run": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": false
+    },
+    "_sql_templates": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "antipetros_bot": {
+        "classes": {
+            "AntiPetrosBot": {
+                "methods": {
+                    "_call_before_identify_hook": {
+                        "missing_docstring": true
+                    },
+                    "_call_module_finalizers": {
+                        "missing_docstring": true
+                    },
+                    "_get_bot_info": {
+                        "missing_docstring": true
+                    },
+                    "_get_initial_cogs": {
+                        "missing_docstring": false
+                    },
+                    "_get_state": {
+                        "missing_docstring": true
+                    },
+                    "_get_websocket": {
+                        "missing_docstring": true
+                    },
+                    "_handle_ready": {
+                        "missing_docstring": true
+                    },
+                    "_load_from_module_spec": {
+                        "missing_docstring": true
+                    },
+                    "_remove_module_references": {
+                        "missing_docstring": true
+                    },
+                    "_run_event": {
+                        "missing_docstring": true
+                    },
+                    "_schedule_event": {
+                        "missing_docstring": true
+                    },
+                    "_setup": {
+                        "missing_docstring": true
+                    },
+                    "_start_sessions": {
+                        "missing_docstring": true
+                    },
+                    "_syncer": {
+                        "missing_docstring": true
+                    },
+                    "activity_from_config": {
+                        "missing_docstring": true
+                    },
+                    "add_check": {
+                        "missing_docstring": false
+                    },
+                    "add_cog": {
+                        "missing_docstring": false
+                    },
+                    "add_command": {
+                        "missing_docstring": false
+                    },
+                    "add_listener": {
+                        "missing_docstring": false
+                    },
+                    "add_to_feature_suggestions": {
+                        "missing_docstring": true
+                    },
+                    "after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "all_cog_commands": {
+                        "missing_docstring": true
+                    },
+                    "application_info": {
+                        "missing_docstring": false
+                    },
+                    "before_identify_hook": {
+                        "missing_docstring": false
+                    },
+                    "before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "before_update_check_loop": {
+                        "missing_docstring": true
+                    },
+                    "blacklisted_user_ids": {
+                        "missing_docstring": true
+                    },
+                    "can_run": {
+                        "missing_docstring": true
+                    },
+                    "change_presence": {
+                        "missing_docstring": false
+                    },
+                    "check": {
+                        "missing_docstring": false
+                    },
+                    "check_once": {
+                        "missing_docstring": false
+                    },
+                    "clear": {
+                        "missing_docstring": false
+                    },
+                    "close": {
+                        "missing_docstring": true
+                    },
+                    "command": {
+                        "missing_docstring": false
+                    },
+                    "connect": {
+                        "missing_docstring": false
+                    },
+                    "create_doc_json": {
+                        "missing_docstring": true
+                    },
+                    "create_guild": {
+                        "missing_docstring": false
+                    },
+                    "debug_function": {
+                        "missing_docstring": true
+                    },
+                    "delete_invite": {
+                        "missing_docstring": false
+                    },
+                    "dispatch": {
+                        "missing_docstring": true
+                    },
+                    "event": {
+                        "missing_docstring": false
+                    },
+                    "execute_in_thread": {
+                        "missing_docstring": true
+                    },
+                    "fetch_channel": {
+                        "missing_docstring": false
+                    },
+                    "fetch_guild": {
+                        "missing_docstring": false
+                    },
+                    "fetch_guilds": {
+                        "missing_docstring": false
+                    },
+                    "fetch_invite": {
+                        "missing_docstring": false
+                    },
+                    "fetch_template": {
+                        "missing_docstring": false
+                    },
+                    "fetch_user": {
+                        "missing_docstring": false
+                    },
+                    "fetch_user_profile": {
+                        "missing_docstring": false
+                    },
+                    "fetch_webhook": {
+                        "missing_docstring": false
+                    },
+                    "fetch_widget": {
+                        "missing_docstring": false
+                    },
+                    "get_all_channels": {
+                        "missing_docstring": false
+                    },
+                    "get_all_members": {
+                        "missing_docstring": false
+                    },
+                    "get_antistasi_emoji": {
+                        "missing_docstring": true
+                    },
+                    "get_channel": {
+                        "missing_docstring": false
+                    },
+                    "get_cog": {
+                        "missing_docstring": false
+                    },
+                    "get_command": {
+                        "missing_docstring": false
+                    },
+                    "get_context": {
+                        "missing_docstring": false
+                    },
+                    "get_emoji": {
+                        "missing_docstring": false
+                    },
+                    "get_guild": {
+                        "missing_docstring": false
+                    },
+                    "get_intents": {
+                        "missing_docstring": true
+                    },
+                    "get_prefix": {
+                        "missing_docstring": false
+                    },
+                    "get_user": {
+                        "missing_docstring": false
+                    },
+                    "group": {
+                        "missing_docstring": false
+                    },
+                    "handle_previous_shutdown_msg": {
+                        "missing_docstring": true
+                    },
+                    "invoke": {
+                        "missing_docstring": false
+                    },
+                    "is_closed": {
+                        "missing_docstring": false
+                    },
+                    "is_owner": {
+                        "missing_docstring": false
+                    },
+                    "is_ready": {
+                        "missing_docstring": false
+                    },
+                    "is_ws_ratelimited": {
+                        "missing_docstring": false
+                    },
+                    "listen": {
+                        "missing_docstring": false
+                    },
+                    "load_extension": {
+                        "missing_docstring": false
+                    },
+                    "login": {
+                        "missing_docstring": false
+                    },
+                    "logout": {
+                        "missing_docstring": false
+                    },
+                    "message_creator": {
+                        "missing_docstring": true
+                    },
+                    "not_implemented": {
+                        "missing_docstring": true
+                    },
+                    "on_command_error": {
+                        "missing_docstring": false
+                    },
+                    "on_error": {
+                        "missing_docstring": false
+                    },
+                    "on_message": {
+                        "missing_docstring": true
+                    },
+                    "on_ready": {
+                        "missing_docstring": true
+                    },
+                    "process_commands": {
+                        "missing_docstring": false
+                    },
+                    "recursively_remove_all_commands": {
+                        "missing_docstring": true
+                    },
+                    "reload_extension": {
+                        "missing_docstring": false
+                    },
+                    "remove_check": {
+                        "missing_docstring": false
+                    },
+                    "remove_cog": {
+                        "missing_docstring": false
+                    },
+                    "remove_command": {
+                        "missing_docstring": false
+                    },
+                    "remove_listener": {
+                        "missing_docstring": false
+                    },
+                    "request_offline_members": {
+                        "missing_docstring": false
+                    },
+                    "run": {
+                        "missing_docstring": true
+                    },
+                    "save_feature_suggestion_extra_data": {
+                        "missing_docstring": true
+                    },
+                    "send_startup_message": {
+                        "missing_docstring": true
+                    },
+                    "set_delayed_bot_attributes": {
+                        "missing_docstring": true
+                    },
+                    "split_to_messages": {
+                        "missing_docstring": true
+                    },
+                    "start": {
+                        "missing_docstring": false
+                    },
+                    "sync_channel_from_name": {
+                        "missing_docstring": true
+                    },
+                    "to_all_cogs": {
+                        "missing_docstring": true
+                    },
+                    "unload_extension": {
+                        "missing_docstring": false
+                    },
+                    "wait_for": {
+                        "missing_docstring": false
+                    },
+                    "wait_until_ready": {
+                        "missing_docstring": false
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "antistasi_informer": {
+        "classes": {
+            "AntistasiInformer": {
+                "methods": {
+                    "all_members_with_role": {
+                        "missing_docstring": true
+                    },
+                    "channel_from_id": {
+                        "missing_docstring": true
+                    },
+                    "channel_from_name": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "member_by_name": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "retrieve_antistasi_member": {
+                        "missing_docstring": true
+                    },
+                    "role_from_string": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "aux_config_cog": {
+        "classes": {
+            "AddedAliasChangeEvent": {
+                "methods": {
+                    "as_embed_message": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "aux_give_away_cog": {
+        "classes": {
+            "GiveAwayEvent": {
+                "methods": {
+                    "check_convert": {
+                        "missing_docstring": true
+                    },
+                    "convert_author": {
+                        "missing_docstring": true
+                    },
+                    "convert_channel": {
+                        "missing_docstring": true
+                    },
+                    "convert_datetime": {
+                        "missing_docstring": true
+                    },
+                    "convert_message": {
+                        "missing_docstring": true
+                    },
+                    "to_dict": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "base_sql_schema": {
+        "classes": {
+            "BaseSchema": {
+                "methods": {},
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "bin_data": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "blacklist_warden": {
+        "classes": {
+            "BlacklistWarden": {
+                "methods": {
+                    "_ensure_blacklist_file_exists": {
+                        "missing_docstring": true
+                    },
+                    "blacklist_user": {
+                        "missing_docstring": true
+                    },
+                    "command_call_blocked": {
+                        "missing_docstring": true
+                    },
+                    "generate_blacklisted_user_hash": {
+                        "missing_docstring": true
+                    },
+                    "get_blacklisted_user": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "is_blacklisted": {
+                        "missing_docstring": true
+                    },
+                    "notify": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "save": {
+                        "missing_docstring": true
+                    },
+                    "unblacklist_user": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "blacklisted_user_item": {
+        "classes": {
+            "BlacklistedUserItem": {
+                "methods": {
+                    "to_dict": {
+                        "missing_docstring": true
+                    },
+                    "tried_calling": {
+                        "missing_docstring": true
+                    },
+                    "unblacklist": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "bot_supporter": {
+        "classes": {
+            "BotSupporter": {
+                "methods": {
+                    "find_available_subsupport_classes": {
+                        "missing_docstring": true
+                    },
+                    "log_attribute_not_found": {
+                        "missing_docstring": true
+                    },
+                    "really_has_attribute": {
+                        "missing_docstring": true
+                    },
+                    "recruit_subsupports": {
+                        "missing_docstring": true
+                    },
+                    "retire_subsupport": {
+                        "missing_docstring": true
+                    },
+                    "to_all_subsupports": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "builder": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "chan_statistician": {
+        "classes": {
+            "ChannelStatistician": {
+                "methods": {
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "make_heat_map": {
+                        "missing_docstring": true
+                    },
+                    "record_channel_usage": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "checks": {
+        "classes": {},
+        "functions": {
+            "allowed_channel_and_allowed_role_2": {
+                "missing_docstring": true
+            },
+            "allowed_requester": {
+                "missing_docstring": true
+            },
+            "command_enabled_checker": {
+                "missing_docstring": true
+            },
+            "has_attachments": {
+                "missing_docstring": true
+            },
+            "in_allowed_channels": {
+                "missing_docstring": true
+            },
+            "is_not_giddi": {
+                "missing_docstring": true
+            },
+            "log_invoker": {
+                "missing_docstring": true
+            },
+            "mod_func_all_in_int": {
+                "missing_docstring": true
+            },
+            "only_dm_only_allowed_id": {
+                "missing_docstring": true
+            },
+            "owner_or_admin": {
+                "missing_docstring": true
+            },
+            "purge_check_always_false": {
+                "missing_docstring": true
+            },
+            "purge_check_always_true": {
+                "missing_docstring": true
+            },
+            "purge_check_contains": {
+                "missing_docstring": true
+            },
+            "purge_check_from_user": {
+                "missing_docstring": true
+            },
+            "purge_check_is_bot": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "color_keeper": {
+        "classes": {
+            "ColorKeeper": {
+                "methods": {
+                    "_basic_colors_to_attribute": {
+                        "missing_docstring": true
+                    },
+                    "_make_color_items": {
+                        "missing_docstring": true
+                    },
+                    "color": {
+                        "missing_docstring": true
+                    },
+                    "dict_to_color_item": {
+                        "missing_docstring": true
+                    },
+                    "get_discord_color": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "command_replacement": {
+        "classes": {},
+        "functions": {
+            "_default_alias_maker": {
+                "missing_docstring": false
+            },
+            "_get_custom_aliases": {
+                "missing_docstring": false
+            },
+            "auto_meta_info_command": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "command_statistician": {
+        "classes": {
+            "CommandStatistician": {
+                "methods": {
+                    "after_action": {
+                        "missing_docstring": true
+                    },
+                    "cog_name_list": {
+                        "missing_docstring": true
+                    },
+                    "command_name_list": {
+                        "missing_docstring": true
+                    },
+                    "get_todays_invoke_data": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "command_stats_dict": {
+        "classes": {
+            "CommandStatDict": {
+                "methods": {
+                    "add_tick": {
+                        "missing_docstring": true
+                    },
+                    "clear": {
+                        "missing_docstring": false
+                    },
+                    "copy": {
+                        "missing_docstring": true
+                    },
+                    "get": {
+                        "missing_docstring": false
+                    },
+                    "initialize_data": {
+                        "missing_docstring": true
+                    },
+                    "items": {
+                        "missing_docstring": false
+                    },
+                    "keys": {
+                        "missing_docstring": false
+                    },
+                    "load_data": {
+                        "missing_docstring": true
+                    },
+                    "pop": {
+                        "missing_docstring": false
+                    },
+                    "popitem": {
+                        "missing_docstring": false
+                    },
+                    "save_data": {
+                        "missing_docstring": true
+                    },
+                    "save_overall": {
+                        "missing_docstring": true
+                    },
+                    "setdefault": {
+                        "missing_docstring": false
+                    },
+                    "update": {
+                        "missing_docstring": false
+                    },
+                    "values": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "config_cog": {
+        "classes": {
+            "ConfigCog": {
+                "methods": {
+                    "_config_file_to_discord_file": {
+                        "missing_docstring": false
+                    },
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_get_available_configs": {
+                        "missing_docstring": false
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_make_notify_changed_config_embed": {
+                        "missing_docstring": true
+                    },
+                    "_match_config_name": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "changed_config_uploaded": {
+                        "missing_docstring": true
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": false
+                    },
+                    "compare_configs": {
+                        "missing_docstring": true
+                    },
+                    "config_to_set": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "get_notify_roles": {
+                        "missing_docstring": true
+                    },
+                    "notify": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": false
+                    },
+                    "refresh_command_aliases": {
+                        "missing_docstring": true
+                    },
+                    "save_command_aliases": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "converters": {
+        "classes": {
+            "DateOnlyConverter": {
+                "methods": {
+                    "convert": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "DateTimeFullConverter": {
+                "methods": {
+                    "convert": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "FlagArg": {
+                "methods": {
+                    "convert": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "LanguageConverter": {
+                "methods": {
+                    "convert": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "cooldown_dict": {
+        "classes": {
+            "CoolDownDict": {
+                "methods": {
+                    "_timed_removal": {
+                        "missing_docstring": true
+                    },
+                    "add": {
+                        "missing_docstring": true
+                    },
+                    "clear": {
+                        "missing_docstring": false
+                    },
+                    "copy": {
+                        "missing_docstring": true
+                    },
+                    "get": {
+                        "missing_docstring": false
+                    },
+                    "in_data": {
+                        "missing_docstring": true
+                    },
+                    "items": {
+                        "missing_docstring": false
+                    },
+                    "keys": {
+                        "missing_docstring": false
+                    },
+                    "pop": {
+                        "missing_docstring": false
+                    },
+                    "popitem": {
+                        "missing_docstring": false
+                    },
+                    "setdefault": {
+                        "missing_docstring": false
+                    },
+                    "string_to_int": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": false
+                    },
+                    "values": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "crypt": {
+        "classes": {},
+        "functions": {
+            "decrypt_db": {
+                "missing_docstring": true
+            },
+            "decrypt_file": {
+                "missing_docstring": true
+            },
+            "decrypt_string": {
+                "missing_docstring": true
+            },
+            "encrypt_db": {
+                "missing_docstring": true
+            },
+            "encrypt_file": {
+                "missing_docstring": true
+            },
+            "encrypt_string": {
+                "missing_docstring": true
+            },
+            "load_key": {
+                "missing_docstring": false
+            },
+            "new_db_key": {
+                "missing_docstring": true
+            },
+            "write_key": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": false
+    },
+    "data": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "data_gathering": {
+        "classes": {},
+        "functions": {
+            "gather_data": {
+                "missing_docstring": true
+            },
+            "get_channel_category_data": {
+                "missing_docstring": true
+            },
+            "get_channel_data": {
+                "missing_docstring": true
+            },
+            "get_channel_role_data": {
+                "missing_docstring": true
+            },
+            "get_general_data": {
+                "missing_docstring": true
+            },
+            "get_member_data": {
+                "missing_docstring": true
+            },
+            "get_role_data": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "db_action_base": {
+        "classes": {
+            "AioGidSqliteActionBase": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "GidSqliteActionBase": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "db_reader": {
+        "classes": {
+            "AioGidSqliteReader": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    },
+                    "disable_row_factory": {
+                        "missing_docstring": true
+                    },
+                    "enable_row_factory": {
+                        "missing_docstring": true
+                    },
+                    "query": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "Fetch": {
+                "methods": {},
+                "missing_docstring": false
+            },
+            "GidSqliteReader": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    },
+                    "disable_row_factory": {
+                        "missing_docstring": true
+                    },
+                    "enable_row_factory": {
+                        "missing_docstring": true
+                    },
+                    "query": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "db_writer": {
+        "classes": {
+            "AioGidSQLiteWriter": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    },
+                    "write": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "GidSQLiteWriter": {
+                "methods": {
+                    "_execute_pragmas": {
+                        "missing_docstring": true
+                    },
+                    "_handle_error": {
+                        "missing_docstring": true
+                    },
+                    "write": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "embed_builder": {
+        "classes": {
+            "EmbedBuilder": {
+                "methods": {
+                    "_ensure_folder_exists": {
+                        "missing_docstring": true
+                    },
+                    "_fix_field_item": {
+                        "missing_docstring": true
+                    },
+                    "_paginatedfields_generic_embed_helper": {
+                        "missing_docstring": true
+                    },
+                    "_size_of_field": {
+                        "missing_docstring": true
+                    },
+                    "_validate_color": {
+                        "missing_docstring": true
+                    },
+                    "_validate_image": {
+                        "missing_docstring": true
+                    },
+                    "_validate_timestamp": {
+                        "missing_docstring": true
+                    },
+                    "_validate_type": {
+                        "missing_docstring": true
+                    },
+                    "collect_embed_build_recipes": {
+                        "missing_docstring": true
+                    },
+                    "datetime_int_parser": {
+                        "missing_docstring": false
+                    },
+                    "datetime_parser": {
+                        "missing_docstring": false
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "make_embed": {
+                        "missing_docstring": true
+                    },
+                    "make_generic_embed": {
+                        "missing_docstring": true
+                    },
+                    "make_paginatedfields_generic_embed": {
+                        "missing_docstring": true
+                    },
+                    "make_static_embed": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "embed_factory": {
+        "classes": {
+            "EmbedFactory": {
+                "methods": {},
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "embed_helpers": {
+        "classes": {},
+        "functions": {
+            "make_basic_embed": {
+                "missing_docstring": true
+            },
+            "make_basic_embed_inline": {
+                "missing_docstring": true
+            },
+            "standard_embed_color": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "embed_item": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": false
+    },
+    "embed_schema": {
+        "classes": {
+            "EmbedAuthorSchema": {
+                "methods": {
+                    "_Schema__apply_nested_option": {
+                        "missing_docstring": false
+                    },
+                    "_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "_call_and_store": {
+                        "missing_docstring": false
+                    },
+                    "_deserialize": {
+                        "missing_docstring": false
+                    },
+                    "_do_load": {
+                        "missing_docstring": false
+                    },
+                    "_init_fields": {
+                        "missing_docstring": false
+                    },
+                    "_invoke_dump_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_field_validators": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_load_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_schema_validators": {
+                        "missing_docstring": true
+                    },
+                    "_normalize_nested_options": {
+                        "missing_docstring": false
+                    },
+                    "_run_validator": {
+                        "missing_docstring": true
+                    },
+                    "_serialize": {
+                        "missing_docstring": false
+                    },
+                    "dump": {
+                        "missing_docstring": false
+                    },
+                    "dumps": {
+                        "missing_docstring": false
+                    },
+                    "get_attribute": {
+                        "missing_docstring": false
+                    },
+                    "handle_error": {
+                        "missing_docstring": false
+                    },
+                    "load": {
+                        "missing_docstring": false
+                    },
+                    "loads": {
+                        "missing_docstring": false
+                    },
+                    "on_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "validate": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            },
+            "EmbedFieldSchema": {
+                "methods": {
+                    "_Schema__apply_nested_option": {
+                        "missing_docstring": false
+                    },
+                    "_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "_call_and_store": {
+                        "missing_docstring": false
+                    },
+                    "_deserialize": {
+                        "missing_docstring": false
+                    },
+                    "_do_load": {
+                        "missing_docstring": false
+                    },
+                    "_init_fields": {
+                        "missing_docstring": false
+                    },
+                    "_invoke_dump_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_field_validators": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_load_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_schema_validators": {
+                        "missing_docstring": true
+                    },
+                    "_normalize_nested_options": {
+                        "missing_docstring": false
+                    },
+                    "_run_validator": {
+                        "missing_docstring": true
+                    },
+                    "_serialize": {
+                        "missing_docstring": false
+                    },
+                    "dump": {
+                        "missing_docstring": false
+                    },
+                    "dumps": {
+                        "missing_docstring": false
+                    },
+                    "get_attribute": {
+                        "missing_docstring": false
+                    },
+                    "handle_error": {
+                        "missing_docstring": false
+                    },
+                    "load": {
+                        "missing_docstring": false
+                    },
+                    "loads": {
+                        "missing_docstring": false
+                    },
+                    "on_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "validate": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            },
+            "EmbedFooterSchema": {
+                "methods": {
+                    "_Schema__apply_nested_option": {
+                        "missing_docstring": false
+                    },
+                    "_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "_call_and_store": {
+                        "missing_docstring": false
+                    },
+                    "_deserialize": {
+                        "missing_docstring": false
+                    },
+                    "_do_load": {
+                        "missing_docstring": false
+                    },
+                    "_init_fields": {
+                        "missing_docstring": false
+                    },
+                    "_invoke_dump_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_field_validators": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_load_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_schema_validators": {
+                        "missing_docstring": true
+                    },
+                    "_normalize_nested_options": {
+                        "missing_docstring": false
+                    },
+                    "_run_validator": {
+                        "missing_docstring": true
+                    },
+                    "_serialize": {
+                        "missing_docstring": false
+                    },
+                    "dump": {
+                        "missing_docstring": false
+                    },
+                    "dumps": {
+                        "missing_docstring": false
+                    },
+                    "get_attribute": {
+                        "missing_docstring": false
+                    },
+                    "handle_error": {
+                        "missing_docstring": false
+                    },
+                    "load": {
+                        "missing_docstring": false
+                    },
+                    "loads": {
+                        "missing_docstring": false
+                    },
+                    "on_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "validate": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            },
+            "EmbedPrototypeSchema": {
+                "methods": {
+                    "_Schema__apply_nested_option": {
+                        "missing_docstring": false
+                    },
+                    "_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "_call_and_store": {
+                        "missing_docstring": false
+                    },
+                    "_deserialize": {
+                        "missing_docstring": false
+                    },
+                    "_do_load": {
+                        "missing_docstring": false
+                    },
+                    "_init_fields": {
+                        "missing_docstring": false
+                    },
+                    "_invoke_dump_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_field_validators": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_load_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_processors": {
+                        "missing_docstring": true
+                    },
+                    "_invoke_schema_validators": {
+                        "missing_docstring": true
+                    },
+                    "_normalize_nested_options": {
+                        "missing_docstring": false
+                    },
+                    "_run_validator": {
+                        "missing_docstring": true
+                    },
+                    "_serialize": {
+                        "missing_docstring": false
+                    },
+                    "dump": {
+                        "missing_docstring": false
+                    },
+                    "dumps": {
+                        "missing_docstring": false
+                    },
+                    "get_attribute": {
+                        "missing_docstring": false
+                    },
+                    "handle_error": {
+                        "missing_docstring": false
+                    },
+                    "load": {
+                        "missing_docstring": false
+                    },
+                    "loads": {
+                        "missing_docstring": false
+                    },
+                    "on_bind_field": {
+                        "missing_docstring": false
+                    },
+                    "validate": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "emoji_handling": {
+        "classes": {},
+        "functions": {
+            "create_emoji_custom_name": {
+                "missing_docstring": true
+            },
+            "create_emoji_id": {
+                "missing_docstring": true
+            },
+            "get_emoji_unicode": {
+                "missing_docstring": true
+            },
+            "normalize_emoji": {
+                "missing_docstring": true
+            },
+            "str_random": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "enums": {
+        "classes": {
+            "CogState": {
+                "methods": {},
+                "missing_docstring": false
+            },
+            "DataSize": {
+                "methods": {},
+                "missing_docstring": false
+            },
+            "EmbedType": {
+                "methods": {},
+                "missing_docstring": false
+            },
+            "RequestStatus": {
+                "methods": {},
+                "missing_docstring": false
+            },
+            "WatermarkPosition": {
+                "methods": {},
+                "missing_docstring": false
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "error_handler": {
+        "classes": {
+            "ErrorHandler": {
+                "methods": {
+                    "_default_handle_error": {
+                        "missing_docstring": true
+                    },
+                    "_handle_bad_argument": {
+                        "missing_docstring": true
+                    },
+                    "_handle_check_failure": {
+                        "missing_docstring": true
+                    },
+                    "_handle_command_on_cooldown": {
+                        "missing_docstring": true
+                    },
+                    "_handle_max_concurrency": {
+                        "missing_docstring": true
+                    },
+                    "_handle_missing_attachment": {
+                        "missing_docstring": true
+                    },
+                    "_handle_not_allowed_channel": {
+                        "missing_docstring": true
+                    },
+                    "_handle_not_necessary_dm_id": {
+                        "missing_docstring": true
+                    },
+                    "_handle_not_necessary_role": {
+                        "missing_docstring": true
+                    },
+                    "_handle_not_text_channel": {
+                        "missing_docstring": true
+                    },
+                    "error_message_embed": {
+                        "missing_docstring": true
+                    },
+                    "error_reply_embed": {
+                        "missing_docstring": true
+                    },
+                    "handle_errors": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "transform_error_msg": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "essential_commands_keeper": {
+        "classes": {
+            "EssentialCommandsKeeper": {
+                "methods": {
+                    "add_commands": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "reload_all_ext": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "shutdown": {
+                        "missing_docstring": true
+                    },
+                    "stop_the_reaction_petros": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "exceptions": {
+        "classes": {
+            "AntiPetrosBaseError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "BaseExtendedCommandError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "CogNameNotCamelCaseError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "DuplicateNameError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "FuzzyMatchError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "GidSqliteColumnAlreadySetError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "GidSqliteError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "GidSqliteNoTableNameError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "GidSqliteSemiColonError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "IsNotDMChannelError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "IsNotTextChannelError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "MissingAttachmentError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "MissingNeededAttributeError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "NotAllowedChannelError": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "NotNecessaryDmId": {
+                "methods": {},
+                "missing_docstring": true
+            },
+            "NotNecessaryRole": {
+                "methods": {},
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "facade": {
+        "classes": {
+            "AioGidSqliteDatabase": {
+                "methods": {
+                    "aio_query": {
+                        "missing_docstring": true
+                    },
+                    "aio_startup_db": {
+                        "missing_docstring": true
+                    },
+                    "aio_vacuum": {
+                        "missing_docstring": true
+                    },
+                    "aio_write": {
+                        "missing_docstring": true
+                    },
+                    "new_phrase": {
+                        "missing_docstring": true
+                    },
+                    "query": {
+                        "missing_docstring": true
+                    },
+                    "startup_db": {
+                        "missing_docstring": true
+                    },
+                    "vacuum": {
+                        "missing_docstring": true
+                    },
+                    "write": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "GidSqliteDatabase": {
+                "methods": {
+                    "new_phrase": {
+                        "missing_docstring": true
+                    },
+                    "query": {
+                        "missing_docstring": true
+                    },
+                    "startup_db": {
+                        "missing_docstring": true
+                    },
+                    "vacuum": {
+                        "missing_docstring": true
+                    },
+                    "write": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "PhraseType": {
+                "methods": {},
+                "missing_docstring": false
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "faq_cog": {
+        "classes": {
+            "FaqCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_get_text_dimensions": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_make_number_image": {
+                        "missing_docstring": true
+                    },
+                    "_make_perfect_fontsize": {
+                        "missing_docstring": true
+                    },
+                    "_make_toc": {
+                        "missing_docstring": true
+                    },
+                    "_number_with_emojis": {
+                        "missing_docstring": true
+                    },
+                    "_transform_raw_faq_data": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_check": {
+                        "missing_docstring": true
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": true
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "make_faq_embed": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "process_template_faq_data": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "file_system_walk": {
+        "classes": {
+            "FileSystemWalkerItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_converted_size": {
+                        "missing_docstring": true
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    },
+                    "_size": {
+                        "missing_docstring": true
+                    },
+                    "delete": {
+                        "missing_docstring": true
+                    },
+                    "exists": {
+                        "missing_docstring": true
+                    },
+                    "is_dir": {
+                        "missing_docstring": true
+                    },
+                    "is_file": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "_input_handle_excludes": {
+                "missing_docstring": true
+            },
+            "bytes2human": {
+                "missing_docstring": true
+            },
+            "filesystem_walker": {
+                "missing_docstring": true
+            },
+            "filesystem_walker_files": {
+                "missing_docstring": true
+            },
+            "filesystem_walker_folders": {
+                "missing_docstring": true
+            },
+            "pathmaker": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": false
+    },
+    "general_debug_cog": {
+        "classes": {
+            "GeneralDebugCog": {
+                "methods": {
+                    "_apply_overwrites": {
+                        "missing_docstring": true
+                    },
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": false
+                    },
+                    "emoji_tester": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "general_decorator": {
+        "classes": {},
+        "functions": {
+            "debug_timing_log": {
+                "missing_docstring": true
+            },
+            "debug_timing_print": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "general_markdown_helper": {
+        "classes": {
+            "AntiPetrosMarkdownBase": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "BlockQuote": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "Bold": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "CodeBlock": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "Cursive": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "LineCode": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            },
+            "UnderScore": {
+                "methods": {
+                    "capitalize": {
+                        "missing_docstring": true
+                    },
+                    "casefold": {
+                        "missing_docstring": true
+                    },
+                    "center": {
+                        "missing_docstring": true
+                    },
+                    "count": {
+                        "missing_docstring": true
+                    },
+                    "encode": {
+                        "missing_docstring": true
+                    },
+                    "endswith": {
+                        "missing_docstring": true
+                    },
+                    "expandtabs": {
+                        "missing_docstring": true
+                    },
+                    "find": {
+                        "missing_docstring": true
+                    },
+                    "format": {
+                        "missing_docstring": true
+                    },
+                    "format_map": {
+                        "missing_docstring": true
+                    },
+                    "index": {
+                        "missing_docstring": true
+                    },
+                    "isalnum": {
+                        "missing_docstring": true
+                    },
+                    "isalpha": {
+                        "missing_docstring": true
+                    },
+                    "isascii": {
+                        "missing_docstring": true
+                    },
+                    "isdecimal": {
+                        "missing_docstring": true
+                    },
+                    "isdigit": {
+                        "missing_docstring": true
+                    },
+                    "isidentifier": {
+                        "missing_docstring": true
+                    },
+                    "islower": {
+                        "missing_docstring": true
+                    },
+                    "isnumeric": {
+                        "missing_docstring": true
+                    },
+                    "isprintable": {
+                        "missing_docstring": true
+                    },
+                    "isspace": {
+                        "missing_docstring": true
+                    },
+                    "istitle": {
+                        "missing_docstring": true
+                    },
+                    "isupper": {
+                        "missing_docstring": true
+                    },
+                    "join": {
+                        "missing_docstring": true
+                    },
+                    "ljust": {
+                        "missing_docstring": true
+                    },
+                    "lower": {
+                        "missing_docstring": true
+                    },
+                    "lstrip": {
+                        "missing_docstring": true
+                    },
+                    "partition": {
+                        "missing_docstring": true
+                    },
+                    "removeprefix": {
+                        "missing_docstring": true
+                    },
+                    "removesuffix": {
+                        "missing_docstring": true
+                    },
+                    "replace": {
+                        "missing_docstring": true
+                    },
+                    "rfind": {
+                        "missing_docstring": true
+                    },
+                    "rindex": {
+                        "missing_docstring": true
+                    },
+                    "rjust": {
+                        "missing_docstring": true
+                    },
+                    "rpartition": {
+                        "missing_docstring": true
+                    },
+                    "rsplit": {
+                        "missing_docstring": true
+                    },
+                    "rstrip": {
+                        "missing_docstring": true
+                    },
+                    "split": {
+                        "missing_docstring": true
+                    },
+                    "splitlines": {
+                        "missing_docstring": true
+                    },
+                    "startswith": {
+                        "missing_docstring": true
+                    },
+                    "strip": {
+                        "missing_docstring": true
+                    },
+                    "swapcase": {
+                        "missing_docstring": true
+                    },
+                    "title": {
+                        "missing_docstring": true
+                    },
+                    "translate": {
+                        "missing_docstring": true
+                    },
+                    "upper": {
+                        "missing_docstring": true
+                    },
+                    "zfill": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "gidtools_functions": {
+        "classes": {},
+        "functions": {
+            "_exist_handle": {
+                "missing_docstring": false
+            },
+            "_filter_by_fileage": {
+                "missing_docstring": true
+            },
+            "absolute_listdir": {
+                "missing_docstring": true
+            },
+            "appendwriteit": {
+                "missing_docstring": true
+            },
+            "bytes2human": {
+                "missing_docstring": true
+            },
+            "cascade_rename": {
+                "missing_docstring": true
+            },
+            "clearit": {
+                "missing_docstring": false
+            },
+            "create_file": {
+                "missing_docstring": true
+            },
+            "create_folder": {
+                "missing_docstring": true
+            },
+            "dir_change": {
+                "missing_docstring": false
+            },
+            "ext_splitter": {
+                "missing_docstring": false
+            },
+            "file_name_modifier": {
+                "missing_docstring": false
+            },
+            "file_name_time": {
+                "missing_docstring": false
+            },
+            "file_walker": {
+                "missing_docstring": false
+            },
+            "from_dict_to_file": {
+                "missing_docstring": true
+            },
+            "get_absolute_path": {
+                "missing_docstring": false
+            },
+            "get_pickled": {
+                "missing_docstring": false
+            },
+            "hash_to_solidcfg": {
+                "missing_docstring": true
+            },
+            "ishash_same": {
+                "missing_docstring": true
+            },
+            "limit_amount_files_absolute": {
+                "missing_docstring": true
+            },
+            "limit_amount_of_files": {
+                "missing_docstring": false
+            },
+            "linereadit": {
+                "missing_docstring": true
+            },
+            "loadjson": {
+                "missing_docstring": true
+            },
+            "number_rename": {
+                "missing_docstring": false
+            },
+            "path_part_remove": {
+                "missing_docstring": false
+            },
+            "pathmaker": {
+                "missing_docstring": false
+            },
+            "pickleit": {
+                "missing_docstring": false
+            },
+            "readbin": {
+                "missing_docstring": false
+            },
+            "readit": {
+                "missing_docstring": false
+            },
+            "splitoff": {
+                "missing_docstring": false
+            },
+            "timenamemaker": {
+                "missing_docstring": false
+            },
+            "work_in": {
+                "missing_docstring": false
+            },
+            "writebin": {
+                "missing_docstring": false
+            },
+            "writeit": {
+                "missing_docstring": false
+            },
+            "writejson": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "give_away_cog": {
+        "classes": {
+            "GiveAwayCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "add_give_away": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_check": {
+                        "missing_docstring": true
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": true
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "give_away_finished": {
+                        "missing_docstring": true
+                    },
+                    "notify_author": {
+                        "missing_docstring": true
+                    },
+                    "on_raw_reaction_add": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "remove_give_away": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "global_checks": {
+        "classes": {},
+        "functions": {
+            "user_not_blacklisted": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "image_manipulation_cog": {
+        "classes": {
+            "ImageManipulatorCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_get_stamp_image": {
+                        "missing_docstring": true
+                    },
+                    "_get_stamps": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_send_image": {
+                        "missing_docstring": true
+                    },
+                    "_stamp_resize": {
+                        "missing_docstring": true
+                    },
+                    "_to_bottom_center": {
+                        "missing_docstring": true
+                    },
+                    "_to_bottom_left": {
+                        "missing_docstring": true
+                    },
+                    "_to_bottom_right": {
+                        "missing_docstring": true
+                    },
+                    "_to_center_center": {
+                        "missing_docstring": true
+                    },
+                    "_to_center_left": {
+                        "missing_docstring": true
+                    },
+                    "_to_center_right": {
+                        "missing_docstring": true
+                    },
+                    "_to_top_center": {
+                        "missing_docstring": true
+                    },
+                    "_to_top_left": {
+                        "missing_docstring": true
+                    },
+                    "_to_top_right": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": false
+                    },
+                    "get_avatar_from_user": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "map_image_handling": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "klimbim_cog": {
+        "classes": {
+            "KlimBimCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "locations": {
+        "classes": {},
+        "functions": {
+            "find_path": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "misc": {
+        "classes": {
+            "CogConfigReadOnly": {
+                "methods": {},
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "_check_convert_value_type": {
+                "missing_docstring": true
+            },
+            "async_date_today": {
+                "missing_docstring": true
+            },
+            "async_load_json": {
+                "missing_docstring": true
+            },
+            "async_seconds_to_pretty_normal": {
+                "missing_docstring": true
+            },
+            "async_split_camel_case_string": {
+                "missing_docstring": true
+            },
+            "casefold_contains": {
+                "missing_docstring": true
+            },
+            "casefold_list": {
+                "missing_docstring": true
+            },
+            "check_if_int": {
+                "missing_docstring": true
+            },
+            "color_hex_embed": {
+                "missing_docstring": true
+            },
+            "convert_to_rgb": {
+                "missing_docstring": true
+            },
+            "date_today": {
+                "missing_docstring": true
+            },
+            "datetime_isoformat_to_discord_format": {
+                "missing_docstring": true
+            },
+            "day_to_second": {
+                "missing_docstring": true
+            },
+            "generate_base_cogs_config": {
+                "missing_docstring": true
+            },
+            "generate_help_data": {
+                "missing_docstring": true
+            },
+            "handle_arguments_string": {
+                "missing_docstring": true
+            },
+            "hour_to_second": {
+                "missing_docstring": true
+            },
+            "image_to_url": {
+                "missing_docstring": true
+            },
+            "is_even": {
+                "missing_docstring": true
+            },
+            "make_command_subsection_seperator": {
+                "missing_docstring": true
+            },
+            "make_config_name": {
+                "missing_docstring": true
+            },
+            "minute_to_second": {
+                "missing_docstring": true
+            },
+            "save_bin_file": {
+                "missing_docstring": true
+            },
+            "save_commands": {
+                "missing_docstring": true
+            },
+            "seconds_to_pretty": {
+                "missing_docstring": true
+            },
+            "split_camel_case_string": {
+                "missing_docstring": true
+            },
+            "sync_to_async": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "named_tuples": {
+        "classes": {
+            "CITY_ITEM": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "COUNTRY_ITEM": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "ColorItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "CreatorMember": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "EmbedFieldItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "FeatureSuggestionItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "FlagItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "GiveAwayEventItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "InvokedCommandsDataItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "LINK_DATA_ITEM": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "LatencyMeasurement": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "ListenerContext": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "MemberRoleItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "MemoryUsageMeasurement": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "MovieQuoteItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "NewCommandStaffItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "RegexItem": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "SUGGESTION_DATA_ITEM": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            },
+            "StartupMessageInfo": {
+                "methods": {
+                    "_asdict": {
+                        "missing_docstring": false
+                    },
+                    "_replace": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "phrasers": {
+        "classes": {
+            "GidSqliteInserter": {
+                "methods": {
+                    "add_column": {
+                        "missing_docstring": true
+                    },
+                    "fk_select": {
+                        "missing_docstring": true
+                    },
+                    "set_or_ignore": {
+                        "missing_docstring": true
+                    },
+                    "set_table_name": {
+                        "missing_docstring": true
+                    },
+                    "sql_phrase": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "quoter": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "poor_mans_abc": {
+        "classes": {},
+        "functions": {
+            "attribute_checker": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "purge_messages_cog": {
+        "classes": {
+            "PurgeMessagesCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": false
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "regex_keeper": {
+        "classes": {
+            "RegexKeeper": {
+                "methods": {
+                    "_compile_all_regexes": {
+                        "missing_docstring": true
+                    },
+                    "_load_regexes": {
+                        "missing_docstring": true
+                    },
+                    "_process_raw_regexes": {
+                        "missing_docstring": true
+                    },
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "regex": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "regexes": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "save_suggestion_cog": {
+        "classes": {
+            "SaveSuggestionCog": {
+                "methods": {
+                    "_add_suggestion": {
+                        "missing_docstring": true
+                    },
+                    "_change_category": {
+                        "missing_docstring": true
+                    },
+                    "_change_votes": {
+                        "missing_docstring": true
+                    },
+                    "_clear_suggestions": {
+                        "missing_docstring": true
+                    },
+                    "_collect_title": {
+                        "missing_docstring": true
+                    },
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_new_suggestion": {
+                        "missing_docstring": true
+                    },
+                    "_remove_previous_categories": {
+                        "missing_docstring": true
+                    },
+                    "_row_to_json_user_data": {
+                        "missing_docstring": true
+                    },
+                    "_set_category": {
+                        "missing_docstring": true
+                    },
+                    "_suggestion_listen_checks": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "categories_emojis": {
+                        "missing_docstring": true
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": false
+                    },
+                    "get_category_name": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "make_add_success_embed": {
+                        "missing_docstring": true
+                    },
+                    "make_already_saved_embed": {
+                        "missing_docstring": true
+                    },
+                    "make_changed_category_embed": {
+                        "missing_docstring": true
+                    },
+                    "messages_to_watch": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "saved_messages": {
+                        "missing_docstring": true
+                    },
+                    "specifc_reaction_from_message": {
+                        "missing_docstring": true
+                    },
+                    "suggestion_reaction_listener": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "script_handling": {
+        "classes": {
+            "GidSqliteScriptProvider": {
+                "methods": {
+                    "get": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "security_cog": {
+        "classes": {
+            "SecurityCog": {
+                "methods": {
+                    "_attachment_scanner_exclusion_check": {
+                        "missing_docstring": true
+                    },
+                    "_create_forbidden_link_list": {
+                        "missing_docstring": false
+                    },
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_handle_forbidden_attachment": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_process_raw_blocklist_content": {
+                        "missing_docstring": false
+                    },
+                    "attachment_scanner_listener": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "check_link": {
+                        "missing_docstring": true
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": true
+                    },
+                    "cog_check": {
+                        "missing_docstring": true
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": true
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "special_characters": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "special_prefix": {
+        "classes": {},
+        "functions": {
+            "when_mentioned_or_roles_or": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": true
+    },
+    "sql_phraser": {
+        "classes": {
+            "GidSqlitePhraser": {
+                "methods": {},
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "sqldata_storager": {
+        "classes": {
+            "AioSuggestionDataStorageSQLite": {
+                "methods": {
+                    "add_suggestion": {
+                        "missing_docstring": true
+                    },
+                    "category_emojis": {
+                        "missing_docstring": true
+                    },
+                    "clear": {
+                        "missing_docstring": true
+                    },
+                    "get_all_message_ids": {
+                        "missing_docstring": true
+                    },
+                    "get_all_non_discussed_message_ids": {
+                        "missing_docstring": true
+                    },
+                    "get_all_suggestion_not_discussed": {
+                        "missing_docstring": true
+                    },
+                    "get_suggestion_by_id": {
+                        "missing_docstring": true
+                    },
+                    "get_suggestions_per_author": {
+                        "missing_docstring": true
+                    },
+                    "mark_discussed": {
+                        "missing_docstring": true
+                    },
+                    "remove_suggestion_by_id": {
+                        "missing_docstring": true
+                    },
+                    "update_category": {
+                        "missing_docstring": true
+                    },
+                    "update_votes": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": true
+    },
+    "steam_cog": {
+        "classes": {
+            "SteamCog": {
+                "methods": {
+                    "_add_item_to_registered_items": {
+                        "missing_docstring": true
+                    },
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_get_fresh_item_data": {
+                        "missing_docstring": true
+                    },
+                    "_get_image_link": {
+                        "missing_docstring": true
+                    },
+                    "_get_item_size": {
+                        "missing_docstring": true
+                    },
+                    "_get_requirements": {
+                        "missing_docstring": true
+                    },
+                    "_get_title": {
+                        "missing_docstring": true
+                    },
+                    "_get_updated": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_parse_update_date": {
+                        "missing_docstring": true
+                    },
+                    "_remove_item_from_registered_items": {
+                        "missing_docstring": true
+                    },
+                    "_update_item_in_registered_items": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "notify_update": {
+                        "missing_docstring": true
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "subsupport_abstract": {
+        "classes": {
+            "SubSupportBase": {
+                "methods": {
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {},
+        "missing_docstring": false
+    },
+    "the_dragon": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    },
+    "time_keeper": {
+        "classes": {
+            "TimeKeeper": {
+                "methods": {
+                    "if_ready": {
+                        "missing_docstring": true
+                    },
+                    "retire": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    }
+                },
+                "missing_docstring": true
+            }
+        },
+        "functions": {
+            "get_class": {
+                "missing_docstring": true
+            }
+        },
+        "missing_docstring": false
+    },
+    "translate_cog": {
+        "classes": {
+            "TranslateCog": {
+                "methods": {
+                    "_eject": {
+                        "missing_docstring": true
+                    },
+                    "_emoji_translate_checks": {
+                        "missing_docstring": true
+                    },
+                    "_inject": {
+                        "missing_docstring": true
+                    },
+                    "_translate_text": {
+                        "missing_docstring": true
+                    },
+                    "bot_check": {
+                        "missing_docstring": false
+                    },
+                    "bot_check_once": {
+                        "missing_docstring": false
+                    },
+                    "cog_after_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_before_invoke": {
+                        "missing_docstring": false
+                    },
+                    "cog_check": {
+                        "missing_docstring": false
+                    },
+                    "cog_command_error": {
+                        "missing_docstring": false
+                    },
+                    "cog_unload": {
+                        "missing_docstring": true
+                    },
+                    "emoji_translate_listener": {
+                        "missing_docstring": true
+                    },
+                    "get_commands": {
+                        "missing_docstring": false
+                    },
+                    "get_emoji_name": {
+                        "missing_docstring": true
+                    },
+                    "get_listeners": {
+                        "missing_docstring": false
+                    },
+                    "on_ready_setup": {
+                        "missing_docstring": true
+                    },
+                    "translate_embed": {
+                        "missing_docstring": true
+                    },
+                    "update": {
+                        "missing_docstring": true
+                    },
+                    "walk_commands": {
+                        "missing_docstring": false
+                    }
+                },
+                "missing_docstring": false
+            }
+        },
+        "functions": {
+            "setup": {
+                "missing_docstring": false
+            }
+        },
+        "missing_docstring": true
+    },
+    "user_data_setup": {
+        "classes": {},
+        "functions": {},
+        "missing_docstring": true
+    }
+}

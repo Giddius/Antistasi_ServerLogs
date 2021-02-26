@@ -1,5 +1,10 @@
-ERROR: Could not find a version that satisfies the requirement gidviewmodels==0.1 (from gidqtutils==0.1.0) (from versions: none)
-ERROR: No matching distribution found for gidviewmodels==0.1 (from gidqtutils==0.1.0)
-Extras to install for deps 'all': {'.none'}             I-flit.install
-Installing requirements                                 I-flit.install
+Cleaning directory d:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Antistasi_ServerLog_Statistic\tools\\..
+Total 1664 files, 194 directories removed.
+Cleaning directory d:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Antistasi_ServerLog_Statistic\tools\\..
+Total 0 files, 0 directories removed.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100 1884k  100 1884k    0     0  1884k      0  0:00:01 --:--:--  0:00:01 9284k
+|Extras to install for deps 'all': {'.none'}             I-flit.install
 Symlinking antistasi_serverlog_statistic -> d:\dropbox\hobby\modding\programs\github\my_repos\antistasi_serverlog_statistic\.venv\Lib\site-packages\antistasi_serverlog_statistic  I-flit.install
+Writing script to d:\dropbox\hobby\modding\programs\github\my_repos\antistasi_serverlog_statistic\.venv\Scripts\parse_fn_logperformance  I-flit.install

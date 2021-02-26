@@ -1,288 +1,289 @@
-@echo off
-setlocal enableextensions
-set OLDHOME_FOLDER=%~dp0
-set INPATH=%~dp1
-set INFILE=%~nx1
-set INFILEBASE=%~n1
+@ECHO OFF
+SETLOCAL ENABLEEXTENSIONS
 
-rem ---------------------------------------------------
-set _date=%DATE:/=-%
-set _time=%TIME::=%
-set _time=%_time: =0%
-rem ---------------------------------------------------
-rem ---------------------------------------------------
-set _decades=%_date:~-2%
-set _years=%_date:~-4%
-set _months=%_date:~3,2%
-set _days=%_date:~0,2%
-rem ---------------------------------------------------
-set _hours=%_time:~0,2%
-set _minutes=%_time:~2,2%
-set _seconds=%_time:~4,2%
-rem ---------------------------------------------------
-set TIMEBLOCK=%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%
-Echo ################# Current time is %TIMEBLOCK%
+REM ----------------------------------------------------------------------------------------------------
+REM Necessary Files:
+REM - pre_setup_scripts.txt
+REM - required_personal_packages.txt
+REM - required_misc.txt
+REM - required_Qt.txt
+REM - required_from_github.txt
+REM - required_test.txt
+REM - required_dev.txt
+REM - post_setup_scripts.txt
+REM ----------------------------------------------------------------------------------------------------
+
+
+SET PROJECT_NAME=%~1
+SET PROJECT_AUTHOR=%~2
+
+SET TOOLS_FOLDER=%~dp0
+SET WORKSPACE_FOLDER=%TOOLS_FOLDER%\..
+
+
+REM ---------------------------------------------------
+SET _date=%DATE:/=-%
+SET _time=%TIME::=%
+SET _time=%_time: =0%
+REM ---------------------------------------------------
+REM ---------------------------------------------------
+SET _decades=%_date:~-2%
+SET _years=%_date:~-4%
+SET _months=%_date:~3,2%
+SET _days=%_date:~0,2%
+REM ---------------------------------------------------
+SET _hours=%_time:~0,2%
+SET _minutes=%_time:~2,2%
+SET _seconds=%_time:~4,2%
+REM ---------------------------------------------------
+SET TIMEBLOCK=%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%
+
+ECHO ***************** Current time is *****************
+ECHO                     %TIMEBLOCK%
+
+ECHO ################# CHANGING DIRECTORY to -- %TOOLS_FOLDER% -- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+CD %TOOLS_FOLDER%
+ECHO.
+
+ECHO -------------------------------------------- PRE-SETUP SCRIPTS --------------------------------------------
+ECHO.
+FOR /F "tokens=1,2 delims=," %%A in (.\venv_setup_settings\pre_setup_scripts.txt) do (
+ECHO.
+ECHO -------------------------- Calling %%A with %%B --------------^>
+CALL %%A %%B
+ECHO.
+)
 Echo.
-Echo.
-Echo.
-Echo -------------------------------------------- BASIC VENV SETUP --------------------------------------------
-Echo.
-Echo.
-Echo ################# changing directory to %OLDHOME_FOLDER%
-cd %OLDHOME_FOLDER%
-Echo.
-Echo ################# removing old venv folder
-RD /S /Q ..\.venv
+ECHO -------------------------------------------- preparing venv_setup_settings --------------------------------------------
+ECHO.
+ECHO ################# preparing venv_setup_settings
+call  %TOOLS_FOLDER%prepare_venv_settings.py %TOOLS_FOLDER%
+if %ERRORLEVEL% == 1 (
+    ECHO.
+    ECHO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ECHO 8888888888888888888888888888888888888888888888888
+    ECHO.
+    Echo Created Venv settings folder, please custimize the files and restart the Scripts
+    ECHO.
+    ECHO 8888888888888888888888888888888888888888888888888
+    ECHO ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ECHO.
+    Exit 63
+) else (
+    Echo finished preparing venv
+)
+
+
+rem ECHO.
+rem ECHO -------------------------------------------- Clearing Pip Cache --------------------------------------------
+rem RD /S /Q %LocalAppData%\pip\Cache
+rem ECHO.
+
+
+
+ECHO -------------------------------------------- BASIC VENV SETUP --------------------------------------------
+ECHO.
+
+
+ECHO ################# Removing old venv folder
+RD /S /Q %WORKSPACE_FOLDER%\.venv
+ECHO.
+
+
+ECHO ################# pycleaning workspace
+call pyclean %WORKSPACE_FOLDER%
 echo.
 
-Echo ################# creating new venv folder
-mkdir ..\.venv
-echo.
-Echo ################# calling venv module to initialize new venv
-python -m venv ..\.venv
-echo.
 
-Echo ################# changing directory to ..\.venv
-cd ..\.venv
-echo.
-Echo ################# activating venv for package installation
-call .\Scripts\activate.bat
-echo.
 
-Echo ################# upgrading pip to get rid of stupid warning
-call %OLDHOME_FOLDER%get-pip.py
-echo.
-echo.
-echo.
-Echo -------------------------------------------- INSTALLING PACKAGES --------------------------------------------
-echo.
-echo.
-Echo +++++++++++++++++++++++++++++ Standard Packages +++++++++++++++++++++++++++++
-echo.
-Echo ################# Installing Setuptools
-call pip install setuptools
-echo.
-rem Echo ################# Installing pywin32
-rem call pip install pywin32
-rem echo.
-Echo ################# Installing python-dotenv
-call pip install python-dotenv
-echo.
-Echo ################# Installing flit
-call pip install --force-reinstall --no-cache-dir flit
-echo.
-echo.
+ECHO ################# creating new venv folder
+mkdir %WORKSPACE_FOLDER%\.venv
+ECHO.
+
+ECHO ################# Calling venv module to initialize new venv
+python -m venv %WORKSPACE_FOLDER%\.venv
+ECHO.
+
+ECHO ################# activating venv for package installation
+CALL %WORKSPACE_FOLDER%\.venv\Scripts\activate.bat
+ECHO.
+
+ECHO ################# upgrading pip to get rid of stupid warning
+call curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+set _REPLACE_STRING=
+call fart -C %TOOLS_FOLDER%get-pip.py "import os.path" "import setuptools\nimport os.path"
+call get-pip.py --force-reinstall
+del /Q get-pip.py
+ECHO.
+
+ECHO.
+ECHO -------------------------------------------------------------------------------------------------------------
+ECHO ++++++++++++++++++++++++++++++++++++++++++++ INSTALLING PACKAGES ++++++++++++++++++++++++++++++++++++++++++++
+ECHO -------------------------------------------------------------------------------------------------------------
+ECHO.
+ECHO.
+
+
+
+ECHO +++++++++++++++++++++++++++++ Standard Packages +++++++++++++++++++++++++++++
+ECHO.
+ECHO.
+
+ECHO ################# Installing Setuptools
+CALL pip install --no-cache-dir --upgrade setuptools
+ECHO.
+
+ECHO ################# Installing wheel
+CALL pip install --no-cache-dir --upgrade wheel
+ECHO.
+ECHO ################# Installing PEP517
+CALL pip install --no-cache-dir --upgrade PEP517
+ECHO.
+
+ECHO ################# Installing python-dotenv
+CALL pip install --no-cache-dir --upgrade python-dotenv
+ECHO.
+
+
+
+ECHO ################# Installing flit
+CALL pip install --no-cache-dir --upgrade flit
+ECHO.
+
+ECHO.
+ECHO.
+
+ECHO +++++++++++++++++++++++++++++ Gid Packages +++++++++++++++++++++++++++++
+ECHO.
+ECHO.
+
+FOR /F "tokens=1,2 delims=," %%A in (.\venv_setup_settings\required_personal_packages.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%B --------------^>
+ECHO.
+PUSHD %%A
+CALL flit install -s
+POPD
+ECHO.
+)
+
+ECHO.
+ECHO.
+
+Echo +++++++++++++++++++++++++++++ Misc Packages +++++++++++++++++++++++++++++
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_misc.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL pip install --upgrade --no-cache-dir %%A
+ECHO.
+)
+
+ECHO.
+ECHO.
+
+Echo +++++++++++++++++++++++++++++ Experimental Packages +++++++++++++++++++++++++++++
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_experimental.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL pip install --upgrade --no-cache-dir %%A
+ECHO.
+)
+
+ECHO.
+ECHO.
+
 Echo +++++++++++++++++++++++++++++ Qt Packages +++++++++++++++++++++++++++++
-echo.
-Echo ################# Installing PyQt5
-call pip install PyQt5
-echo.
-Echo ################# Installing pyopengl
-call pip install pyopengl
-echo.
-Echo ################# Installing PyQt3D
-call pip install PyQt3D
-echo.
-Echo ################# Installing PyQtChart
-call pip install PyQtChart
-echo.
-Echo ################# Installing PyQtDataVisualization
-call pip install PyQtDataVisualization
-echo.
-Echo ################# Installing PyQtWebEngine
-call pip install PyQtWebEngine
-echo.
-Echo ################# Installing pyqtgraph
-call pip install pyqtgraph
-echo.
-Echo ################# Installing QScintilla
-call pip install QScintilla
-echo.
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_Qt.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL pip install --upgrade --no-cache-dir %%A
+ECHO.
+)
 
-echo.
+ECHO.
+ECHO.
 
 Echo +++++++++++++++++++++++++++++ Packages From Github +++++++++++++++++++++++++++++
-echo.
-Echo ################# Installing git+https://github.com/overfl0/Armaclass.git
-call pip install git+https://github.com/overfl0/Armaclass.git
-echo.
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_from_github.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL call pip install --upgrade --no-cache-dir git+%%A
+ECHO.
+)
 
+ECHO.
+ECHO.
 
-echo.
-
-rem Echo +++++++++++++++++++++++++++++ Misc Packages +++++++++++++++++++++++++++++
-rem echo.
-rem Echo ################# Installing pyperclip
-rem call pip install pyperclip
-rem echo.
-Echo ################# Installing jinja2
-call pip install jinja2
-echo.
-Echo ################# Installing bs4
-call pip install bs4
-echo.
-Echo ################# Installing requests
-call pip install requests
-echo.
-Echo ################# Installing PyGithub
-call pip install PyGithub
-echo.
-Echo ################# Installing fuzzywuzzy
-call pip install fuzzywuzzy
-echo.
-rem Echo ################# Installing fuzzysearch
-rem call pip install fuzzysearch
-rem echo.
-Echo ################# Installing python-Levenshtein
-call pip install python-Levenshtein
-echo.
-rem Echo ################# Installing jsonpickle
-rem call pip install jsonpickle
-rem echo.
-rem Echo ################# Installing discord.py
-rem call pip install discord.py
-rem echo.
-Echo ################# Installing regex
-call pip install regex
-echo.
-Echo ################# Installing marshmallow
-call pip install marshmallow
-echo.
-Echo ################# Installing click
-call pip install click
-echo.
-Echo ################# Installing checksumdir
-call pip install checksumdir
-echo.
-Echo ################# Installing natsort
-call pip install natsort
-echo.
-Echo ################# Installing parse
-call pip install parse
-echo.
-
-echo.
-Echo +++++++++++++++++++++++++++++ Gid Packages +++++++++++++++++++++++++++++
-echo.
-Echo ################# Installing D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\gidtools_utils
-pushd D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\gidtools_utils
-call pip install -e .
-popd
-echo.
-Echo ################# Installing D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\gidqtutils
-pushd D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\gidqtutils
-call pip install -e .
-popd
-echo.
-Echo ################# Installing D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\gidlogger_rep
-
-call pip install gidlogger
-
-echo.
-Echo ################# Installing D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Gid_Vscode_Wrapper
-pushd D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Gid_Vscode_Wrapper
-call pip install -e .
-popd
-echo.
-Echo ################# Installing D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Gid_View_models
-pushd D:\Dropbox\hobby\Modding\Programs\Github\My_Repos\Gid_View_models
-call pip install -e .
-popd
-echo.
-echo.
-
-Echo ################# changing directory to %OLDHOME_FOLDER%
-cd %OLDHOME_FOLDER%
-echo.
-Echo ################# writing ..\requirements_dev.txt
-echo ########################################################## created at --^> %TIMEBLOCK% ##########################################################> ..\requirements_dev.txt
-call pip freeze >> ..\requirements_dev.txt
-echo.
-echo.
-echo.
 Echo +++++++++++++++++++++++++++++ Test Packages +++++++++++++++++++++++++++++
-echo.
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_test.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL pip install --upgrade --no-cache-dir %%A
+ECHO.
+)
 
-Echo ################# Installing pytest-qt
-call pip install pytest-qt
-echo.
-Echo ################# Installing pytest
-call pip install pytest
-echo.
+ECHO.
+ECHO.
 
-echo.
 Echo +++++++++++++++++++++++++++++ Dev Packages +++++++++++++++++++++++++++++
-echo.
-Echo ################# Installing wheel
-call pip install --no-cache-dir wheel
-echo.
-Echo ################# Installing pyinstaller
-call pip install --force-reinstall --no-cache-dir pyinstaller
-echo.
-Echo ################# Installing pep517
-call pip install --no-cache-dir pep517
-echo.
+ECHO.
+FOR /F "tokens=1 delims=," %%A in (.\venv_setup_settings\required_dev.txt) do (
+ECHO.
+ECHO -------------------------- Installing %%A --------------^>
+ECHO.
+CALL pip install --upgrade --no-cache-dir %%A
+ECHO.
+)
 
-Echo ################# Installing pyqt5-tools==5.15.1.1.7.5
-call pip install --pre pyqt5-tools==5.15.1.1.7.5
-echo.
-Echo ################# Installing PyQt5-stubs
-call pip install PyQt5-stubs
-echo.
-Echo ################# Installing sip
-call pip install sip
-echo.
-Echo ################# Installing PyQt-builder
-call pip install PyQt-builder
-echo.
-Echo ################# Installing pyqtdeploy
-call pip install pyqtdeploy
-echo.
-rem Echo ################# Installing nuitka
-rem call pip install nuitka
-rem echo.
-rem Echo ################# Installing memory-profiler
-rem call pip install memory-profiler
-rem echo.
-rem Echo ################# Installing matplotlib
-rem call pip install matplotlib
-rem echo.
-rem Echo ################# Installing import-profiler
-rem call pip install import-profiler
-rem echo.
-rem Echo ################# Installing objectgraph
-rem call pip install objectgraph
-rem echo.
-rem Echo ################# Installing pipreqs
-rem call pip install pipreqs
-rem echo.
-rem Echo ################# Installing pydeps
-rem call pip install pydeps
-rem echo.
-rem Echo ################# Installing bootstrap-discord-bot
-rem call pip install bootstrap-discord-bot
-rem echo.
-rem echo.
+ECHO.
+ECHO.
 
-echo -------------------calling pyqt5toolsinstalluic.exe-----------------------------
-call ..\.venv\Scripts\pyqt5toolsinstalluic.exe
-echo.
-rem echo.
 
+ECHO -------------------------------------------- INSTALL THE PROJECT ITSELF AS -DEV PACKAGE --------------------------------------------
 echo.
-Echo ################# converting ..\requirements_dev.txt to ..\requirements.txt by calling %OLDHOME_FOLDER%convert_requirements_dev_to_normal.py
-call %OLDHOME_FOLDER%convert_requirements_dev_to_normal.py
-echo.
-Echo INSTALL THE PACKAGE ITSELF AS -dev PACKAGE SO I DONT HAVE TO DEAL WITH RELATIVE PATHS
-cd ..\
-rem call pip install -e ..
+PUSHD %WORKSPACE_FOLDER%
+rem call pip install -e .
 call flit install -s
 echo.
-echo.
-echo ###############################################################################################################
-echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-echo ---------------------------------------------------------------------------------------------------------------
-echo                                                     FINISHED
-echo ---------------------------------------------------------------------------------------------------------------
-echo +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-echo ###############################################################################################################
+POPD
+ECHO.
+
+ECHO.
+ECHO.
+
+ECHO -------------------------------------------- POST-SETUP SCRIPTS --------------------------------------------
+ECHO.
+FOR /F "tokens=1,2 delims=," %%A in (.\venv_setup_settings\post_setup_scripts.txt) do (
+ECHO.
+ECHO -------------------------- Calling %%A with %%B --------------^>
+CALL %%A %%B
+ECHO.
+)
+
+ECHO.
+ECHO.
+
+ECHO.
+ECHO #############################################################################################################
+ECHO -------------------------------------------------------------------------------------------------------------
+ECHO #############################################################################################################
+ECHO.
+ECHO.
+ECHO ++++++++++++++++++++++++++++++++++++++++++++++++++ FINISHED +++++++++++++++++++++++++++++++++++++++++++++++++
+ECHO.
+echo ************************** ErrorLevel at end of create_venv script is %ERRORLEVEL% **************************
+ECHO.
+ECHO #############################################################################################################
+ECHO -------------------------------------------------------------------------------------------------------------
+ECHO #############################################################################################################
+ECHO.

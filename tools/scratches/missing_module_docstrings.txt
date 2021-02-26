@@ -1,0 +1,88 @@
+Missing Docstring for module 'cooldown_dict', with path 'antipetros_discordbot/bot_support/sub_support/sub_support_helper/cooldown_dict.py'
+
+Missing Docstring for module 'config_cog', with path 'antipetros_discordbot/cogs/bot_admin_cogs/config_cog.py'
+
+Missing Docstring for module 'give_away_cog', with path 'antipetros_discordbot/cogs/community_events_cogs/give_away_cog.py'
+
+Missing Docstring for module 'general_debug_cog', with path 'antipetros_discordbot/cogs/dev_cogs/general_debug_cog.py'
+
+Missing Docstring for module 'purge_messages_cog', with path 'antipetros_discordbot/cogs/discord_admin_cogs/purge_messages_cog.py'
+
+Missing Docstring for module 'security_cog', with path 'antipetros_discordbot/cogs/discord_admin_cogs/security_cog.py'
+
+Missing Docstring for module 'image_manipulation_cog', with path 'antipetros_discordbot/cogs/general_cogs/image_manipulation_cog.py'
+
+Missing Docstring for module 'klimbim_cog', with path 'antipetros_discordbot/cogs/general_cogs/klimbim_cog.py'
+
+Missing Docstring for module 'save_suggestion_cog', with path 'antipetros_discordbot/cogs/general_cogs/save_suggestion_cog.py'
+
+Missing Docstring for module 'steam_cog', with path 'antipetros_discordbot/cogs/general_cogs/steam_cog.py'
+
+Missing Docstring for module 'translate_cog', with path 'antipetros_discordbot/cogs/general_cogs/translate_cog.py'
+
+Missing Docstring for module 'faq_cog', with path 'antipetros_discordbot/cogs/special_channels_cogs/faq_cog.py'
+
+Missing Docstring for module 'antipetros_bot', with path 'antipetros_discordbot/engine/antipetros_bot.py'
+
+Missing Docstring for module 'special_prefix', with path 'antipetros_discordbot/engine/special_prefix.py'
+
+Missing Docstring for module 'bin_data', with path 'antipetros_discordbot/init_userdata/bin_data.py'
+
+Missing Docstring for module 'user_data_setup', with path 'antipetros_discordbot/init_userdata/user_data_setup.py'
+
+Missing Docstring for module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for module 'data', with path 'antipetros_discordbot/utility/data.py'
+
+Missing Docstring for module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for module 'embed_helpers', with path 'antipetros_discordbot/utility/embed_helpers.py'
+
+Missing Docstring for module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for module 'enums', with path 'antipetros_discordbot/utility/enums.py'
+
+Missing Docstring for module 'exceptions', with path 'antipetros_discordbot/utility/exceptions.py'
+
+Missing Docstring for module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for module 'locations', with path 'antipetros_discordbot/utility/locations.py'
+
+Missing Docstring for module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for module 'named_tuples', with path 'antipetros_discordbot/utility/named_tuples.py'
+
+Missing Docstring for module 'poor_mans_abc', with path 'antipetros_discordbot/utility/poor_mans_abc.py'
+
+Missing Docstring for module 'regexes', with path 'antipetros_discordbot/utility/regexes.py'
+
+Missing Docstring for module 'sqldata_storager', with path 'antipetros_discordbot/utility/sqldata_storager.py'
+
+Missing Docstring for module 'general_markdown_helper', with path 'antipetros_discordbot/utility/discord_markdown_helper/general_markdown_helper.py'
+
+Missing Docstring for module 'special_characters', with path 'antipetros_discordbot/utility/discord_markdown_helper/special_characters.py'
+
+Missing Docstring for module 'the_dragon', with path 'antipetros_discordbot/utility/discord_markdown_helper/the_dragon.py'
+
+Missing Docstring for module 'builder', with path 'antipetros_discordbot/utility/gidsql/builder.py'
+
+Missing Docstring for module 'db_action_base', with path 'antipetros_discordbot/utility/gidsql/db_action_base.py'
+
+Missing Docstring for module 'db_reader', with path 'antipetros_discordbot/utility/gidsql/db_reader.py'
+
+Missing Docstring for module 'db_writer', with path 'antipetros_discordbot/utility/gidsql/db_writer.py'
+
+Missing Docstring for module 'exceptions', with path 'antipetros_discordbot/utility/gidsql/exceptions.py'
+
+Missing Docstring for module 'facade', with path 'antipetros_discordbot/utility/gidsql/facade.py'
+
+Missing Docstring for module 'phrasers', with path 'antipetros_discordbot/utility/gidsql/phrasers.py'
+
+Missing Docstring for module 'script_handling', with path 'antipetros_discordbot/utility/gidsql/script_handling.py'
+
+Missing Docstring for module 'sql_phraser', with path 'antipetros_discordbot/utility/gidsql/sql_phraser.py'
+
+Missing Docstring for module '_sql_templates', with path 'antipetros_discordbot/utility/gidsql/creators/_sql_templates.py'
+
+Missing Docstring for module 'command_replacement', with path 'antipetros_discordbot/utility/replacements/command_replacement.py'
+

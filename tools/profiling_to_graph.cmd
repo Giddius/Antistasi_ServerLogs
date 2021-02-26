@@ -3,7 +3,7 @@
 set OLDHOME_FOLDER=%~dp0
 set PATH_GRAPHVIZ="C:\Program Files (x86)\Graphviz2.38\bin\dot.exe"
 pushd %OLDHOME_FOLDER%
-call ..\.venv\Scripts\activate.bat
+call ..\.venv\Scripts\activate
 rem ---------------------------------------------------
 set _date=%DATE:/=-%
 set _time=%TIME::=%
@@ -25,14 +25,17 @@ set INPATH=%~dp1
 set INFILE=%~nx1
 set INFILEBASE=%~n1
 
+echo %INPATH%
+echo %INFILE%
+echo %INFILEBASE%
 
 
 pushd %INPATH%
 python -m cProfile -o %INFILEBASE%_graph.pstats %INFILE%
 
 timeout /t 2
-MKDIR %WORKSPACEDIR_BATCH%\misc\graph_profiling
-call gprof2dot.exe -f pstats %INFILEBASE%_graph.pstats | %PATH_GRAPHVIZ% -Tsvg -o %WORKSPACEDIR_BATCH%\misc\graph_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_%INFILEBASE%.svg
+MKDIR %INPATH%reports\graph_profiling
+call gprof2dot.exe -f pstats %INFILEBASE%_graph.pstats | %PATH_GRAPHVIZ% -Tsvg -o %INPATH%reports\graph_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_%INFILEBASE%.svg
 DEL %INFILEBASE%_graph.pstats
 echo finished
 

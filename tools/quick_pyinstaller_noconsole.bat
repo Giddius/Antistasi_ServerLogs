@@ -14,8 +14,8 @@ mkdir %INPATH%pyinstaller_output_%INFILEBASE%
 
 set PYTHONOPTIMIZE=1
 pyinstaller --clean --noconfirm --log-level=INFO --onefile -c ^
--i "D:\Dropbox\hobby\Modding\Ressources\Icons\To_Sort_Icons\ico_icons\Antistasi_flag_experiment.ico" ^
--n "logfolder-to-json" ^
+-i D:\Dropbox\hobby\Modding\Ressources\Icons\To_Sort_Icons\ico_icons\Antistasi_flag_experiment.ico ^
+-n %2 ^
 --upx-dir D:\Dropbox\hobby\Modding\Ressources\python\upx\upx-3.96-win64 ^
 --upx-exclude vcruntime140.dll ^
 --upx-exclude ucrtbase.dll ^

@@ -1,0 +1,27 @@
+=====================================================================
+== C:\TCAFiles\Users\AntiDev\2436\arma3server_x64.exe
+== "C:\TCAFiles\Users\AntiDev\2436\arma3server_x64.exe" -port=2342   -MaxMem= -filePatching -collection= "-servermod=@utility;@TaskForceEnforcer;@members" "-mod=@ace;@ACECompatRHSArmedForcesoftheRussianFederation;@ACECompatRHSGREF;@ACECompatRHSUnitedStatesArmedForces;@CBAA3;@EnhancedMovement;@RHSAFRF;@RHSGREF;@RHSUSAF;@taskforceradio;@ZeusEnhanced;@ZeusEnhancedACE3Compatibility;@VETUnflipping;@CUPTerrainsCore;@CUPTerrainsMaps;" -profiles=ARMAHOSTS -config=ARMAHOSTS\server\server.cfg -cfg=ARMAHOSTS\server\basic.cfg "-name=armahosts" -Server
+
+Original output filename: Arma3Retail_Server_x64
+Exe timestamp: 2020/10/12 10:56:58
+Current time:  2021/01/26 10:13:25
+
+Type: Public
+Build: Stable
+Version: 2.00.146773
+
+Allocator: C:\TCAFiles\Users\AntiDev\2436\Dll\tbb4malloc_bi_x64.dll [2017.0.0.0] [2017.0.0.0]
+PhysMem: 128 GiB, VirtMem : 131072 GiB, AvailPhys : 55 GiB, AvailVirt : 131068 GiB, AvailPage : 31 GiB
+=====================================================================
+
+10:13:25 SteamAPI initialization failed. Steam features won't be accessible!
+10:13:25 Initializing stats manager.
+10:13:25 Stats config disabled.
+10:13:25 sessionID: 0d70e3b952fffe513379e919a507786dd64ab973
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable
+10:13:39 Unsupported language English in stringtable

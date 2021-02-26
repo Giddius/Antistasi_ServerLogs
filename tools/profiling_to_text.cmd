@@ -3,7 +3,7 @@
 @Echo off
 set OLDHOME_FOLDER=%~dp0
 pushd %OLDHOME_FOLDER%
-call .\activate_with_vars.bat
+call ..\.venv\Scripts\activate
 
 rem ---------------------------------------------------
 set _date=%DATE:/=-%
@@ -26,8 +26,8 @@ set INPATH=%~dp1
 set INFILE=%~nx1
 set INFILEBASE=%~n1
 pushd %INPATH%
-mkdir %WORKSPACEDIR_BATCH%\text_profiling
-python -m cProfile -s cumtime %INFILE% > %WORKSPACEDIR_BATCH%\text_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_%INFILEBASE%.txt
+mkdir %INPATH%reports\text_profiling
+python -m cProfile -s cumtime %INFILE% > %INPATH%reports\text_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_%INFILEBASE%.txt
 
 
 

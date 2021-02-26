@@ -142,3 +142,5 @@ logs/
 *.db
 /dev_ressources
 input/
+misc/
+/misc

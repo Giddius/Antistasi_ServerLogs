@@ -1,5 +1,0 @@
-graft antistasi_serverlog_statistic
-prune dev_ressources
-prune input
-exclude *.txt
-exclude *.json

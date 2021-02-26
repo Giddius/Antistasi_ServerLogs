@@ -1,0 +1,216 @@
+Missing Docstring for function 'get_class', in module 'antistasi_informer', with path 'antipetros_discordbot/bot_support/sub_support/antistasi_informer.py'
+
+Missing Docstring for function 'get_class', in module 'blacklist_warden', with path 'antipetros_discordbot/bot_support/sub_support/blacklist_warden.py'
+
+Missing Docstring for function 'get_class', in module 'chan_statistician', with path 'antipetros_discordbot/bot_support/sub_support/chan_statistician.py'
+
+Missing Docstring for function 'get_class', in module 'color_keeper', with path 'antipetros_discordbot/bot_support/sub_support/color_keeper.py'
+
+Missing Docstring for function 'get_class', in module 'command_statistician', with path 'antipetros_discordbot/bot_support/sub_support/command_statistician.py'
+
+Missing Docstring for function 'get_class', in module 'embed_builder', with path 'antipetros_discordbot/bot_support/sub_support/embed_builder.py'
+
+Missing Docstring for function 'get_class', in module 'error_handler', with path 'antipetros_discordbot/bot_support/sub_support/error_handler.py'
+
+Missing Docstring for function 'get_class', in module 'essential_commands_keeper', with path 'antipetros_discordbot/bot_support/sub_support/essential_commands_keeper.py'
+
+Missing Docstring for function 'get_class', in module 'regex_keeper', with path 'antipetros_discordbot/bot_support/sub_support/regex_keeper.py'
+
+Missing Docstring for function 'get_class', in module 'time_keeper', with path 'antipetros_discordbot/bot_support/sub_support/time_keeper.py'
+
+Missing Docstring for function '_get_class_from_module', in module '__init__', with path 'antipetros_discordbot/bot_support/sub_support/__init__.py'
+
+Missing Docstring for function 'collect_sub_support_classes', in module '__init__', with path 'antipetros_discordbot/bot_support/sub_support/__init__.py'
+
+Missing Docstring for function 'load_all_modules_from_dir', in module '__init__', with path 'antipetros_discordbot/bot_support/sub_support/__init__.py'
+
+Missing Docstring for function 'get_aliases', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'get_brief', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'get_description', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'get_doc_data', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'get_help', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'get_usage', in module '__init__', with path 'antipetros_discordbot/cogs/__init__.py'
+
+Missing Docstring for function 'user_not_blacklisted', in module 'global_checks', with path 'antipetros_discordbot/engine/global_checks.py'
+
+Missing Docstring for function 'when_mentioned_or_roles_or', in module 'special_prefix', with path 'antipetros_discordbot/engine/special_prefix.py'
+
+Missing Docstring for function 'allowed_channel_and_allowed_role_2', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'allowed_requester', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'command_enabled_checker', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'has_attachments', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'in_allowed_channels', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'is_not_giddi', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'log_invoker', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'mod_func_all_in_int', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'only_dm_only_allowed_id', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'owner_or_admin', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'purge_check_always_false', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'purge_check_always_true', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'purge_check_contains', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'purge_check_from_user', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'purge_check_is_bot', in module 'checks', with path 'antipetros_discordbot/utility/checks.py'
+
+Missing Docstring for function 'decrypt_db', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'decrypt_file', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'decrypt_string', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'encrypt_db', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'encrypt_file', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'encrypt_string', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'new_db_key', in module 'crypt', with path 'antipetros_discordbot/utility/crypt.py'
+
+Missing Docstring for function 'gather_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_channel_category_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_channel_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_channel_role_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_general_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_member_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'get_role_data', in module 'data_gathering', with path 'antipetros_discordbot/utility/data_gathering.py'
+
+Missing Docstring for function 'make_basic_embed', in module 'embed_helpers', with path 'antipetros_discordbot/utility/embed_helpers.py'
+
+Missing Docstring for function 'make_basic_embed_inline', in module 'embed_helpers', with path 'antipetros_discordbot/utility/embed_helpers.py'
+
+Missing Docstring for function 'standard_embed_color', in module 'embed_helpers', with path 'antipetros_discordbot/utility/embed_helpers.py'
+
+Missing Docstring for function 'create_emoji_custom_name', in module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for function 'create_emoji_id', in module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for function 'get_emoji_unicode', in module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for function 'normalize_emoji', in module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for function 'str_random', in module 'emoji_handling', with path 'antipetros_discordbot/utility/emoji_handling.py'
+
+Missing Docstring for function '_input_handle_excludes', in module 'file_system_walk', with path 'antipetros_discordbot/utility/file_system_walk.py'
+
+Missing Docstring for function 'bytes2human', in module 'file_system_walk', with path 'antipetros_discordbot/utility/file_system_walk.py'
+
+Missing Docstring for function 'filesystem_walker', in module 'file_system_walk', with path 'antipetros_discordbot/utility/file_system_walk.py'
+
+Missing Docstring for function 'filesystem_walker_files', in module 'file_system_walk', with path 'antipetros_discordbot/utility/file_system_walk.py'
+
+Missing Docstring for function 'filesystem_walker_folders', in module 'file_system_walk', with path 'antipetros_discordbot/utility/file_system_walk.py'
+
+Missing Docstring for function 'debug_timing_log', in module 'general_decorator', with path 'antipetros_discordbot/utility/general_decorator.py'
+
+Missing Docstring for function 'debug_timing_print', in module 'general_decorator', with path 'antipetros_discordbot/utility/general_decorator.py'
+
+Missing Docstring for function '_filter_by_fileage', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'absolute_listdir', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'appendwriteit', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'bytes2human', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'cascade_rename', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'create_file', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'create_folder', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'from_dict_to_file', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'hash_to_solidcfg', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'ishash_same', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'limit_amount_files_absolute', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'linereadit', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'loadjson', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function 'writejson', in module 'gidtools_functions', with path 'antipetros_discordbot/utility/gidtools_functions.py'
+
+Missing Docstring for function '_check_convert_value_type', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'async_date_today', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'async_load_json', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'async_seconds_to_pretty_normal', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'async_split_camel_case_string', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'casefold_contains', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'casefold_list', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'check_if_int', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'color_hex_embed', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'convert_to_rgb', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'date_today', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'datetime_isoformat_to_discord_format', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'day_to_second', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'generate_base_cogs_config', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'generate_help_data', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'handle_arguments_string', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'hour_to_second', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'image_to_url', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'is_even', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'make_command_subsection_seperator', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'make_config_name', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'minute_to_second', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'save_bin_file', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'save_commands', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'seconds_to_pretty', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'split_camel_case_string', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'sync_to_async', in module 'misc', with path 'antipetros_discordbot/utility/misc.py'
+
+Missing Docstring for function 'attribute_checker', in module 'poor_mans_abc', with path 'antipetros_discordbot/utility/poor_mans_abc.py'
+
+Missing Docstring for function 'quoter', in module 'phrasers', with path 'antipetros_discordbot/utility/gidsql/phrasers.py'
+

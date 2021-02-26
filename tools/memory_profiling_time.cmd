@@ -1,11 +1,8 @@
 @rem taskarg: ${file}
 @Echo off
-
 set OLDHOME_FOLDER=%~dp0
-
 pushd %OLDHOME_FOLDER%
-
-call ..\.venv\Scripts\activate.bat
+call ..\.venv\Scripts\activate
 
 rem ---------------------------------------------------
 set _date=%DATE:/=-%
@@ -26,33 +23,14 @@ rem ---------------------------------------------------
 
 
 set INPATH=%~dp1
-
 set INFILE=%~nx1
-
 set INFILEBASE=%~n1
-
 pushd %INPATH%
-
-mkdir %WORKSPACEDIR_BATCH%\misc\memory_profiling
-
-rem call pip install -q memory-profiler
-rem call pip install -q matplotlib
-
-mprof clean
-mprof run --include-children %~1
-mprof plot --flame
-mprof plot -o %WORKSPACEDIR_BATCH%\misc\memory_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_mem_%INFILEBASE%.svg
-mprof clean
-
-rem call pip uninstall -q -y memory-profiler
-rem call pip uninstall -q -y psutil
-rem call pip uninstall -q -y matplotlib
-rem call pip uninstall -q -y certifi
-rem call pip uninstall -q -y cycler
-rem call pip uninstall -q -y kiwisolver
-rem call pip uninstall -q -y numpy
-rem call pip uninstall -q -y pillow
-rem call pip uninstall -q -y pyparsing
-rem call pip uninstall -q -y python-dateutil
-rem call pip uninstall -q -y six
+mkdir %INPATH%reports\memory_profiling
+mprof.exe clean
+mprof.exe run --include-children %~1
+mprof.exe plot --flame
+mprof.exe plot -o %INPATH%reports\memory_profiling\[%_years%-%_months%-%_days%_%_hours%-%_minutes%-%_seconds%]_mem_%INFILEBASE%.svg
+mprof.exe clean
+pushd %OLDHOME_FOLDER%
 

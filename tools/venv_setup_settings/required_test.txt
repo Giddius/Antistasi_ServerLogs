@@ -1,0 +1,5 @@
+pytest
+pytest-venv
+pytest-cov
+pytest-click
+pytest-sugar
