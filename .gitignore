@@ -147,3 +147,4 @@ misc/
 /tools/private_quick_scripts
 /tools/scratches
 /temp
+*.env
